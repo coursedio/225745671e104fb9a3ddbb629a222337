@@ -1,0 +1,173 @@
+WEBVTT
+
+1
+00:00:00.003 --> 00:00:03.000
+- [Instructor] Let's begin by setting some expectations.
+
+2
+00:00:03.000 --> 00:00:06.000
+First off, this course is designed to be an overview
+
+3
+00:00:06.000 --> 00:00:09.002
+of how data professionals can use AI tools.
+
+4
+00:00:09.002 --> 00:00:11.006
+We'll introduce the broader AI landscape
+
+5
+00:00:11.006 --> 00:00:13.004
+and tools like ChatGPT
+
+6
+00:00:13.004 --> 00:00:16.008
+and we'll review practical use cases for data analysts,
+
+7
+00:00:16.008 --> 00:00:18.004
+but we won't be diving deeply
+
+8
+00:00:18.004 --> 00:00:21.005
+into how these large language models actually work
+
+9
+00:00:21.005 --> 00:00:23.009
+or give an exhaustive list of everything
+
+10
+00:00:23.009 --> 00:00:25.005
+that they're capable of.
+
+11
+00:00:25.005 --> 00:00:29.001
+Next, we'll be using the free versions of these AI tools
+
+12
+00:00:29.001 --> 00:00:30.006
+for the course demos.
+
+13
+00:00:30.006 --> 00:00:32.008
+We'll quickly touch on some paid options
+
+14
+00:00:32.008 --> 00:00:34.003
+and alternative tools,
+
+15
+00:00:34.003 --> 00:00:36.002
+but the majority of what you see
+
+16
+00:00:36.002 --> 00:00:38.001
+will be shown using the free versions
+
+17
+00:00:38.001 --> 00:00:41.004
+of either ChatGPT or Google Bard.
+
+18
+00:00:41.004 --> 00:00:45.009
+Perhaps most importantly, AI is a rapidly evolving field
+
+19
+00:00:45.009 --> 00:00:49.002
+and these tools will change very, very quickly.
+
+20
+00:00:49.002 --> 00:00:51.003
+This technology is moving fast
+
+21
+00:00:51.003 --> 00:00:54.003
+and that means that existing products are going to change,
+
+22
+00:00:54.003 --> 00:00:56.005
+new vendors and tools will emerge,
+
+23
+00:00:56.005 --> 00:00:58.002
+but hopefully, the core concepts
+
+24
+00:00:58.002 --> 00:01:00.007
+and best practices you learn in this course
+
+25
+00:01:00.007 --> 00:01:02.007
+will remain relevant.
+
+26
+00:01:02.007 --> 00:01:04.006
+Last but not least, this course is designed
+
+27
+00:01:04.006 --> 00:01:06.007
+to be modular to fit your needs.
+
+28
+00:01:06.007 --> 00:01:09.008
+The first half of the course is designed for everyone.
+
+29
+00:01:09.008 --> 00:01:11.009
+It's where we'll talk about the AI landscape.
+
+30
+00:01:11.009 --> 00:01:14.000
+We'll introduce these different tools,
+
+31
+00:01:14.000 --> 00:01:17.003
+talk about prompt engineering, best practices, and so on.
+
+32
+00:01:17.003 --> 00:01:18.009
+But the second half is structured
+
+33
+00:01:18.009 --> 00:01:21.001
+so that you can focus specifically
+
+34
+00:01:21.001 --> 00:01:23.008
+on the tools you use most as an analyst,
+
+35
+00:01:23.008 --> 00:01:28.001
+Excel, Sheets, SQL, Power BI, or Python.
+
+36
+00:01:28.001 --> 00:01:29.009
+Now of course, remember that what you see
+
+37
+00:01:29.009 --> 00:01:31.005
+on our screens during the demos
+
+38
+00:01:31.005 --> 00:01:34.001
+won't always match what you're seeing on yours,
+
+39
+00:01:34.001 --> 00:01:37.003
+especially given how these AI tools actually work,
+
+40
+00:01:37.003 --> 00:01:40.001
+but our goal is to give you some ideas and techniques
+
+41
+00:01:40.001 --> 00:01:43.000
+that you can take and apply to your own work.
+
+42
+00:01:43.000 --> 00:01:45.002
+So with that, we've got a lot to cover.
+
+43
+00:01:45.002 --> 00:01:46.002
+Let's get started.
