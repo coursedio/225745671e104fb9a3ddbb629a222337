@@ -1,0 +1,125 @@
+WEBVTT
+
+1
+00:00:00.001 --> 00:00:00.009
+- [Presenter] Hey, everybody.
+
+2
+00:00:00.009 --> 00:00:03.003
+In this video, we're going to go through our first tip
+
+3
+00:00:03.003 --> 00:00:05.009
+for prompt engineering to get better results
+
+4
+00:00:05.009 --> 00:00:07.003
+from your AI tools.
+
+5
+00:00:07.003 --> 00:00:09.009
+And that tip is to be clear and specific.
+
+6
+00:00:09.009 --> 00:00:11.004
+The more specific you are
+
+7
+00:00:11.004 --> 00:00:13.000
+when you're prompting these AI tools,
+
+8
+00:00:13.000 --> 00:00:14.006
+the better the result is going to be.
+
+9
+00:00:14.006 --> 00:00:16.001
+So, let's go through an example.
+
+10
+00:00:16.001 --> 00:00:18.002
+Here, we've got a question, we're working in Excel
+
+11
+00:00:18.002 --> 00:00:21.004
+and we want to know how to calculate year over year growth.
+
+12
+00:00:21.004 --> 00:00:23.000
+The response that we get back is good,
+
+13
+00:00:23.000 --> 00:00:24.006
+but it could be even better
+
+14
+00:00:24.006 --> 00:00:27.006
+if we told the AI tool exactly what we are trying to do.
+
+15
+00:00:27.006 --> 00:00:29.008
+So here's what a better prompt would look like.
+
+16
+00:00:29.008 --> 00:00:31.004
+You see now we're including the fact
+
+17
+00:00:31.004 --> 00:00:32.009
+that we want an Excel formula
+
+18
+00:00:32.009 --> 00:00:37.009
+and we're also telling the AI tool where the data lives
+
+19
+00:00:37.009 --> 00:00:44.000
+in cells C two through C 100 and cells B two through B 100.
+
+20
+00:00:44.000 --> 00:00:45.008
+And you see the response here.
+
+21
+00:00:45.008 --> 00:00:47.002
+It's so much more clear.
+
+22
+00:00:47.002 --> 00:00:50.000
+It gives us the actual Excel formula, which is great.
+
+23
+00:00:50.000 --> 00:00:53.004
+And then, it also gives a little explanation of it below.
+
+24
+00:00:53.004 --> 00:00:54.002
+So keep that in mind.
+
+25
+00:00:54.002 --> 00:00:56.008
+Try to be as clear and specific
+
+26
+00:00:56.008 --> 00:00:59.002
+as you possibly can when you're writing these prompts.
+
+27
+00:00:59.002 --> 00:01:00.006
+And the pro-tip here is
+
+28
+00:01:00.006 --> 00:01:02.007
+if you're generating code, include details
+
+29
+00:01:02.007 --> 00:01:05.000
+like your variable names, your data types, your cell ranges,
+
+30
+00:01:05.000 --> 00:01:07.004
+whatever you can do to be as specific as possible.
+
+31
+00:01:07.004 --> 00:01:09.009
+It will really help out your response.
