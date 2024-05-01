@@ -1,0 +1,149 @@
+WEBVTT
+
+1
+00:00:00.005 --> 00:00:02.009
+- [Instructor] All right, welcome to the ChatGPT for Excel
+
+2
+00:00:02.009 --> 00:00:04.003
+section of the course.
+
+3
+00:00:04.003 --> 00:00:06.009
+In this section, we'll be exploring some of the most common
+
+4
+00:00:06.009 --> 00:00:10.001
+and powerful use cases for data professionals
+
+5
+00:00:10.001 --> 00:00:13.001
+to use ChatGPT with Microsoft Excel,
+
+6
+00:00:13.001 --> 00:00:16.000
+including things like generating formulas and functions,
+
+7
+00:00:16.000 --> 00:00:18.003
+troubleshooting and diagnosing errors,
+
+8
+00:00:18.003 --> 00:00:21.009
+explaining complex topics and much, much more.
+
+9
+00:00:21.009 --> 00:00:24.007
+So here's a quick review of some of the topics and demos
+
+10
+00:00:24.007 --> 00:00:26.001
+that we'll dig into.
+
+11
+00:00:26.001 --> 00:00:28.008
+We're going to use tools like ChatGPT and Bard
+
+12
+00:00:28.008 --> 00:00:31.002
+to help explain complex formulas
+
+13
+00:00:31.002 --> 00:00:34.006
+or topics to us as if it's our own personal tutor.
+
+14
+00:00:34.006 --> 00:00:37.002
+We'll also use these tools to generate brand new
+
+15
+00:00:37.002 --> 00:00:41.003
+worksheet formulas as well as DAX measures and M Code.
+
+16
+00:00:41.003 --> 00:00:44.003
+We'll see how ChatGPT can help us automate tasks
+
+17
+00:00:44.003 --> 00:00:46.008
+with VBA macros and custom scripts.
+
+18
+00:00:46.008 --> 00:00:49.002
+And from there we'll practice loading sample data
+
+19
+00:00:49.002 --> 00:00:52.008
+into ChatGPT using it to troubleshoot and diagnose
+
+20
+00:00:52.008 --> 00:00:56.006
+formula errors, practice generating step-by-step tutorials
+
+21
+00:00:56.006 --> 00:00:58.006
+or roadmaps for things like data prep
+
+22
+00:00:58.006 --> 00:01:00.004
+and exploratory analysis.
+
+23
+00:01:00.004 --> 00:01:02.009
+And finally, we'll use these tools to actually
+
+24
+00:01:02.009 --> 00:01:06.004
+generate industry specific sample data sets.
+
+25
+00:01:06.004 --> 00:01:09.001
+So our goals for this section, we're going to learn how to use
+
+26
+00:01:09.001 --> 00:01:12.001
+ChatGPT and prompt engineering to help explain
+
+27
+00:01:12.001 --> 00:01:14.009
+complex Excel formulas or concepts.
+
+28
+00:01:14.009 --> 00:01:17.006
+We'll also generate new formulas based on either
+
+29
+00:01:17.006 --> 00:01:21.002
+text descriptions or sample data that we provide.
+
+30
+00:01:21.002 --> 00:01:23.007
+We'll generate DAX, M, and VBA code
+
+31
+00:01:23.007 --> 00:01:27.000
+for things like data modeling, analysis, and automation.
+
+32
+00:01:27.000 --> 00:01:29.008
+We'll troubleshoot broken formulas or code.
+
+33
+00:01:29.008 --> 00:01:33.000
+And again, we'll use ChatGPT to actually provide us
+
+34
+00:01:33.000 --> 00:01:35.008
+with step-by-step plans for data prep,
+
+35
+00:01:35.008 --> 00:01:39.002
+quality assurance, exploratory analysis, and more.
+
+36
+00:01:39.002 --> 00:01:41.008
+We've got a lot of really fun topics to dig into.
+
+37
+00:01:41.008 --> 00:01:42.008
+So let's get started.
