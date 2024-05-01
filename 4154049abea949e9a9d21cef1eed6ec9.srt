@@ -1,0 +1,565 @@
+WEBVTT
+
+1
+00:00:00.003 --> 00:00:01.008
+- [Instructor] All right, so for our next demo,
+
+2
+00:00:01.008 --> 00:00:04.009
+what we're going to practice doing is actually pasting data
+
+3
+00:00:04.009 --> 00:00:08.002
+directly into ChatGPT and seeing if it can use
+
+4
+00:00:08.002 --> 00:00:11.008
+that sample data to help produce Excel formulas.
+
+5
+00:00:11.008 --> 00:00:13.009
+So this will be a little bit of a shortcut,
+
+6
+00:00:13.009 --> 00:00:16.003
+so that we don't have to necessarily describe
+
+7
+00:00:16.003 --> 00:00:18.009
+our data set perfectly in words.
+
+8
+00:00:18.009 --> 00:00:20.003
+So in this case, we're working with
+
+9
+00:00:20.003 --> 00:00:22.005
+a small sample of customer records.
+
+10
+00:00:22.005 --> 00:00:25.001
+We've got about 25 customers listed here.
+
+11
+00:00:25.001 --> 00:00:27.003
+First names, last names, city, state,
+
+12
+00:00:27.003 --> 00:00:29.005
+date of birth, and email address.
+
+13
+00:00:29.005 --> 00:00:31.009
+And what we're going to do is just copy and paste
+
+14
+00:00:31.009 --> 00:00:34.009
+this entire sample into ChatGPT.
+
+15
+00:00:34.009 --> 00:00:37.002
+We're going to ask it to write a formula for us,
+
+16
+00:00:37.002 --> 00:00:39.000
+and then we're going to take it a step further
+
+17
+00:00:39.000 --> 00:00:41.001
+and see if it can actually interpret
+
+18
+00:00:41.001 --> 00:00:44.002
+and analyze the data that we've provided it.
+
+19
+00:00:44.002 --> 00:00:46.005
+Now you can just simply copy and paste
+
+20
+00:00:46.005 --> 00:00:48.001
+the data straight from Excel,
+
+21
+00:00:48.001 --> 00:00:52.001
+but I found better results saving the data as a CSV,
+
+22
+00:00:52.001 --> 00:00:54.002
+opening it in a tool like Notepad,
+
+23
+00:00:54.002 --> 00:00:56.004
+and pasting the data from there.
+
+24
+00:00:56.004 --> 00:00:58.009
+So here's the data opened up in Notepad,
+
+25
+00:00:58.009 --> 00:01:01.000
+you can see the comma separated values.
+
+26
+00:01:01.000 --> 00:01:02.008
+This may just make it a little bit easier
+
+27
+00:01:02.008 --> 00:01:05.002
+for ChatGPT to digest.
+
+28
+00:01:05.002 --> 00:01:09.003
+So let's go ahead and copy that, and let's jump into ChatGPT
+
+29
+00:01:09.003 --> 00:01:12.006
+And we could go ahead and paste that right here.
+
+30
+00:01:12.006 --> 00:01:14.003
+Now I'm going to jump back up to the top.
+
+31
+00:01:14.003 --> 00:01:18.000
+I'm going to shift enter to add a couple lines,
+
+32
+00:01:18.000 --> 00:01:20.007
+and this is where I want to add my actual prompt
+
+33
+00:01:20.007 --> 00:01:22.004
+with what we're looking for.
+
+34
+00:01:22.004 --> 00:01:25.008
+So first thing I want to do is describe what we've given it,
+
+35
+00:01:25.008 --> 00:01:28.000
+and then ask for a formula.
+
+36
+00:01:28.000 --> 00:01:29.003
+So I've said, here's a sample
+
+37
+00:01:29.003 --> 00:01:32.002
+of customer data containing 25 records.
+
+38
+00:01:32.002 --> 00:01:33.007
+Could you please write an Excel function
+
+39
+00:01:33.007 --> 00:01:37.007
+to extract only the username from the email column?
+
+40
+00:01:37.007 --> 00:01:40.006
+In other words, we want a function that's going to pull all
+
+41
+00:01:40.006 --> 00:01:44.009
+of the characters before the at symbol in the email field.
+
+42
+00:01:44.009 --> 00:01:46.008
+So I'd expect to get something back using
+
+43
+00:01:46.008 --> 00:01:49.007
+functions like left and find or search.
+
+44
+00:01:49.007 --> 00:01:53.001
+Let's see how well it does.
+
+45
+00:01:53.001 --> 00:01:55.002
+Okay, it says to extract only the username
+
+46
+00:01:55.002 --> 00:01:57.009
+from the email column, you can use the following formula.
+
+47
+00:01:57.009 --> 00:02:02.004
+Perfect, we get left, search, it's referencing cell D2,
+
+48
+00:02:02.004 --> 00:02:05.001
+subtracting one to remove the extra character.
+
+49
+00:02:05.001 --> 00:02:07.000
+So I've written a lot of functions like this,
+
+50
+00:02:07.000 --> 00:02:09.006
+and at first glance, this looks great.
+
+51
+00:02:09.006 --> 00:02:12.005
+It says this is assuming the first record starts in row two,
+
+52
+00:02:12.005 --> 00:02:15.006
+you can enter this in F2, and a little description
+
+53
+00:02:15.006 --> 00:02:19.003
+of how it's actually working, which I think is a nice touch.
+
+54
+00:02:19.003 --> 00:02:21.001
+So let's go ahead and copy this code,
+
+55
+00:02:21.001 --> 00:02:23.002
+and see if it gets the job done.
+
+56
+00:02:23.002 --> 00:02:25.002
+All right, so back in Excel, one thing you may have noticed,
+
+57
+00:02:25.002 --> 00:02:27.007
+it told us to drop this formula in F2,
+
+58
+00:02:27.007 --> 00:02:29.003
+which isn't quite right.
+
+59
+00:02:29.003 --> 00:02:31.002
+We're going to drop it in the first blank column,
+
+60
+00:02:31.002 --> 00:02:33.003
+which in this case is G2.
+
+61
+00:02:33.003 --> 00:02:36.003
+And note that we're referencing column D here.
+
+62
+00:02:36.003 --> 00:02:39.004
+So left of D2, that's not right.
+
+63
+00:02:39.004 --> 00:02:42.003
+The email field is actually here in column F.
+
+64
+00:02:42.003 --> 00:02:47.004
+So I want to change that D2 to an F2 in both instances.
+
+65
+00:02:47.004 --> 00:02:51.006
+Now let's try that, okay, so we get ChristopherRThames86,
+
+66
+00:02:51.006 --> 00:02:53.006
+NicoleBPerez68.
+
+67
+00:02:53.006 --> 00:02:55.005
+So there you go, it did work.
+
+68
+00:02:55.005 --> 00:02:57.009
+It took a couple minor modifications,
+
+69
+00:02:57.009 --> 00:02:59.008
+but overall, pretty solid.
+
+70
+00:02:59.008 --> 00:03:02.006
+We can call this something like username.
+
+71
+00:03:02.006 --> 00:03:04.000
+So that's great, right?
+
+72
+00:03:04.000 --> 00:03:05.007
+But we didn't really need to paste
+
+73
+00:03:05.007 --> 00:03:07.005
+the data for something like that.
+
+74
+00:03:07.005 --> 00:03:10.002
+We could have very easily accomplished the same thing
+
+75
+00:03:10.002 --> 00:03:13.007
+by simply describing the function that we're looking for.
+
+76
+00:03:13.007 --> 00:03:15.003
+Let's jump back to ChatGPT,
+
+77
+00:03:15.003 --> 00:03:17.004
+and see if it can actually analyze
+
+78
+00:03:17.004 --> 00:03:19.005
+the sample that we dropped in there.
+
+79
+00:03:19.005 --> 00:03:21.007
+So let's ask some questions to see
+
+80
+00:03:21.007 --> 00:03:24.003
+if it actually can interpret that data.
+
+81
+00:03:24.003 --> 00:03:25.008
+First up, we can ask something like,
+
+82
+00:03:25.008 --> 00:03:28.007
+who is the oldest customer in the sample?
+
+83
+00:03:28.007 --> 00:03:31.000
+I'm going to intentionally leave this a little vague.
+
+84
+00:03:31.000 --> 00:03:35.001
+I'm not going to say find the smallest value of the date
+
+85
+00:03:35.001 --> 00:03:38.001
+of birth column because I want to see if it can interpret
+
+86
+00:03:38.001 --> 00:03:40.006
+just the natural language here.
+
+87
+00:03:40.006 --> 00:03:44.002
+So okay, it says, in order to determine that,
+
+88
+00:03:44.002 --> 00:03:46.007
+need to find the customer with the earliest date of birth,
+
+89
+00:03:46.007 --> 00:03:49.004
+which is correct, kind of recognize that column.
+
+90
+00:03:49.004 --> 00:03:52.000
+From this list we can see the oldest customer is
+
+91
+00:03:52.000 --> 00:03:53.007
+Christopher Thames with a date
+
+92
+00:03:53.007 --> 00:03:56.009
+of birth of January 16th, 1950.
+
+93
+00:03:56.009 --> 00:03:58.007
+Let's spot check in Excel.
+
+94
+00:03:58.007 --> 00:04:01.008
+Here we go, we're sorted, ascending, got Christopher Thames.
+
+95
+00:04:01.008 --> 00:04:05.004
+January 16th, 1950, so that looks good.
+
+96
+00:04:05.004 --> 00:04:08.002
+Now let's ask something a little bit tougher.
+
+97
+00:04:08.002 --> 00:04:09.006
+How many customers do we have
+
+98
+00:04:09.006 --> 00:04:13.009
+from Texas based on this sample?
+
+99
+00:04:13.009 --> 00:04:18.000
+Okay, it's going to say we need to examine the state column.
+
+100
+00:04:18.000 --> 00:04:19.008
+Uh oh, this isn't the state column,
+
+101
+00:04:19.008 --> 00:04:23.002
+this looks like the city column, that's not right.
+
+102
+00:04:23.002 --> 00:04:24.009
+And it says from this list we can see
+
+103
+00:04:24.009 --> 00:04:26.003
+there are three customers from Texas.
+
+104
+00:04:26.003 --> 00:04:28.008
+I don't know how it's kind of interpreting that.
+
+105
+00:04:28.008 --> 00:04:32.007
+Let's regenerate and see what we get this time.
+
+106
+00:04:32.007 --> 00:04:34.005
+Okay, this time it's pulling in both city
+
+107
+00:04:34.005 --> 00:04:37.007
+and state, which looks to be a little bit better.
+
+108
+00:04:37.007 --> 00:04:40.006
+But then it says there are two customers from Texas.
+
+109
+00:04:40.006 --> 00:04:47.004
+Let's regenerate again and see what we get.
+
+110
+00:04:47.004 --> 00:04:48.005
+Same kind of list here.
+
+111
+00:04:48.005 --> 00:04:51.004
+Now it's saying there are three customers from Texas,
+
+112
+00:04:51.004 --> 00:04:53.002
+so you should be starting to sense
+
+113
+00:04:53.002 --> 00:04:55.004
+a little bit of a red flag here, right?
+
+114
+00:04:55.004 --> 00:04:58.008
+Which is that clearly ChatGPT has some ability
+
+115
+00:04:58.008 --> 00:05:01.001
+to interpret the data that we've pasted,
+
+116
+00:05:01.001 --> 00:05:04.004
+but clearly it is far, far from perfect.
+
+117
+00:05:04.004 --> 00:05:06.004
+So I've played with this with all sorts
+
+118
+00:05:06.004 --> 00:05:08.001
+of different sample data sets,
+
+119
+00:05:08.001 --> 00:05:09.007
+and I continue to see quite a bit
+
+120
+00:05:09.007 --> 00:05:12.000
+of variability in the responses.
+
+121
+00:05:12.000 --> 00:05:16.000
+So overall, my take on this use case is that it tends to be
+
+122
+00:05:16.000 --> 00:05:18.002
+more of a party trick than a valuable tool,
+
+123
+00:05:18.002 --> 00:05:20.002
+especially for analysis.
+
+124
+00:05:20.002 --> 00:05:21.005
+This is one of those examples
+
+125
+00:05:21.005 --> 00:05:25.008
+where ChatGPT's hallucinations can very easily produce
+
+126
+00:05:25.008 --> 00:05:27.009
+completely incorrect responses.
+
+127
+00:05:27.009 --> 00:05:30.004
+And in this case, we could easily spot check
+
+128
+00:05:30.004 --> 00:05:33.005
+since we're working with a very small and simple data set.
+
+129
+00:05:33.005 --> 00:05:36.006
+But in the real world, that would be pretty unlikely.
+
+130
+00:05:36.006 --> 00:05:39.007
+So my advice here would be copying and pasting
+
+131
+00:05:39.007 --> 00:05:42.009
+or providing sample data can be a helpful tool
+
+132
+00:05:42.009 --> 00:05:44.007
+to help generate formulas
+
+133
+00:05:44.007 --> 00:05:47.006
+and provide ChatGPT with more context.
+
+134
+00:05:47.006 --> 00:05:51.004
+But asking it to actually analyze the data sample itself is
+
+135
+00:05:51.004 --> 00:05:53.009
+something that I don't have much confidence in,
+
+136
+00:05:53.009 --> 00:05:55.006
+at least at this point.
+
+137
+00:05:55.006 --> 00:05:58.002
+There are other tools out there like data interpreter
+
+138
+00:05:58.002 --> 00:05:59.004
+that do this much better,
+
+139
+00:05:59.004 --> 00:06:01.008
+and I expect this functionality to get stronger
+
+140
+00:06:01.008 --> 00:06:04.008
+and stronger soon, but at least at this point in time,
+
+141
+00:06:04.008 --> 00:06:06.004
+use it with caution.
