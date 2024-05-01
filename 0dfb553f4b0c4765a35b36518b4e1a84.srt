@@ -1,0 +1,209 @@
+WEBVTT
+
+1
+00:00:00.002 --> 00:00:01.006
+- [Instructor] Hey everybody. In this video,
+
+2
+00:00:01.006 --> 00:00:04.003
+we are going to talk about prompt engineering.
+
+3
+00:00:04.003 --> 00:00:06.000
+You may have heard the term prompt engineering
+
+4
+00:00:06.000 --> 00:00:07.007
+in the context of AI tools,
+
+5
+00:00:07.007 --> 00:00:09.006
+we're going to walk you through what that means,
+
+6
+00:00:09.006 --> 00:00:11.002
+and then finish with some tips
+
+7
+00:00:11.002 --> 00:00:14.001
+so that you can write great, effective prompts.
+
+8
+00:00:14.001 --> 00:00:16.009
+Don't worry, this is all pretty simple,
+
+9
+00:00:16.009 --> 00:00:18.008
+and we'll walk you through it step by step.
+
+10
+00:00:18.008 --> 00:00:23.001
+So first, a prompt is a question or a set of instructions
+
+11
+00:00:23.001 --> 00:00:26.001
+that is going to serve as the input for AI tools
+
+12
+00:00:26.001 --> 00:00:28.008
+like ChatGPT or Google Bard.
+
+13
+00:00:28.008 --> 00:00:32.005
+And prompt engineering is the practice of writing prompts
+
+14
+00:00:32.005 --> 00:00:34.008
+that are going to generate the most effective
+
+15
+00:00:34.008 --> 00:00:37.002
+and accurate responses.
+
+16
+00:00:37.002 --> 00:00:39.001
+So here's an example of a prompt.
+
+17
+00:00:39.001 --> 00:00:42.000
+This is the question that you're asking of the AI tools
+
+18
+00:00:42.000 --> 00:00:43.004
+or the instruction that you're giving.
+
+19
+00:00:43.004 --> 00:00:44.007
+It doesn't have to be a question,
+
+20
+00:00:44.007 --> 00:00:46.002
+it could be some direction.
+
+21
+00:00:46.002 --> 00:00:47.004
+You could see the example,
+
+22
+00:00:47.004 --> 00:00:50.008
+"Can you please explain how the OFFSET function works
+
+23
+00:00:50.008 --> 00:00:51.008
+in Excel?"
+
+24
+00:00:51.008 --> 00:00:54.005
+And you'll get back a response like this.
+
+25
+00:00:54.005 --> 00:00:56.000
+The responses will vary,
+
+26
+00:00:56.000 --> 00:00:58.000
+this is an example from ChatGPT.
+
+27
+00:00:58.000 --> 00:00:59.005
+Google Bard works the same way,
+
+28
+00:00:59.005 --> 00:01:01.006
+the other AI tools work the same way.
+
+29
+00:01:01.006 --> 00:01:03.000
+The main thing we want you to get here
+
+30
+00:01:03.000 --> 00:01:05.003
+is the concept of a prompt and a response,
+
+31
+00:01:05.003 --> 00:01:07.003
+and then our tips and best practices
+
+32
+00:01:07.003 --> 00:01:09.003
+for writing really good prompts
+
+33
+00:01:09.003 --> 00:01:12.002
+are to be as clear and specific as possible.
+
+34
+00:01:12.002 --> 00:01:14.009
+Try to include context and any examples
+
+35
+00:01:14.009 --> 00:01:16.002
+if that's easy to do.
+
+36
+00:01:16.002 --> 00:01:18.009
+Establish roles for the specific use cases
+
+37
+00:01:18.009 --> 00:01:19.008
+you're working with.
+
+38
+00:01:19.008 --> 00:01:22.003
+Set the tone or the level of complexity.
+
+39
+00:01:22.003 --> 00:01:24.006
+And then understand the limitations of the model.
+
+40
+00:01:24.006 --> 00:01:26.004
+We'll walk you through each of these tips
+
+41
+00:01:26.004 --> 00:01:28.008
+and we'll do an example of a prompt,
+
+42
+00:01:28.008 --> 00:01:30.002
+and then we'll improve that prompt
+
+43
+00:01:30.002 --> 00:01:32.004
+by adding a little bit more context here.
+
+44
+00:01:32.004 --> 00:01:35.002
+Our pro tip here is to not get bogged down
+
+45
+00:01:35.002 --> 00:01:38.003
+trying to nail the perfect prompt on the first try.
+
+46
+00:01:38.003 --> 00:01:40.001
+These tools work so quickly
+
+47
+00:01:40.001 --> 00:01:42.003
+that it's really easy to refine and iterate
+
+48
+00:01:42.003 --> 00:01:44.005
+if you don't like the quality of your response.
+
+49
+00:01:44.005 --> 00:01:46.002
+So, try to write a good prompt,
+
+50
+00:01:46.002 --> 00:01:48.002
+but don't spend too much of your energy
+
+51
+00:01:48.002 --> 00:01:50.007
+trying to figure out if your prompt is perfect or not,
+
+52
+00:01:50.007 --> 00:01:53.005
+just get in there and see what you get back as a result.
