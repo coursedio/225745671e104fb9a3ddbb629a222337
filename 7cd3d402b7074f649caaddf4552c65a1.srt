@@ -1,0 +1,97 @@
+WEBVTT
+
+1
+00:00:00.001 --> 00:00:00.009
+- [Instructor] In this video,
+
+2
+00:00:00.009 --> 00:00:02.008
+we're going to give you our next prompt engineering tip
+
+3
+00:00:02.008 --> 00:00:04.006
+to get better results from AI tools
+
+4
+00:00:04.006 --> 00:00:06.004
+like ChatGPT and Google Bard,
+
+5
+00:00:06.004 --> 00:00:08.004
+and that's to establish roles.
+
+6
+00:00:08.004 --> 00:00:11.005
+What that means is you can assign a role
+
+7
+00:00:11.005 --> 00:00:14.001
+that the AI tool is going to play
+
+8
+00:00:14.001 --> 00:00:16.009
+and you can also assign a role that you yourself,
+
+9
+00:00:16.009 --> 00:00:19.005
+as the receiver of the information, is going to play.
+
+10
+00:00:19.005 --> 00:00:20.009
+So check out this example.
+
+11
+00:00:20.009 --> 00:00:22.008
+What's the best way to clean data?
+
+12
+00:00:22.008 --> 00:00:25.002
+ChatGPT comes back with a response here,
+
+13
+00:00:25.002 --> 00:00:27.005
+but then we can add so much more context
+
+14
+00:00:27.005 --> 00:00:29.009
+in terms of the role that we are going to be playing,
+
+15
+00:00:29.009 --> 00:00:32.005
+a new Data Analyst for a retail business.
+
+16
+00:00:32.005 --> 00:00:35.000
+And then we want the AI tool to play the role
+
+17
+00:00:35.000 --> 00:00:38.007
+of a Data QA Engineer and provide a step-by-step plan
+
+18
+00:00:38.007 --> 00:00:40.000
+that we can follow.
+
+19
+00:00:40.000 --> 00:00:41.009
+So when we establish these roles,
+
+20
+00:00:41.009 --> 00:00:44.002
+it's more clear to the AI tool
+
+21
+00:00:44.002 --> 00:00:46.005
+exactly who the audience is,
+
+22
+00:00:46.005 --> 00:00:49.008
+what you want to be getting in your response,
+
+23
+00:00:49.008 --> 00:00:52.004
+and it can just really improve the quality
+
+24
+00:00:52.004 --> 00:00:54.005
+of the result that you get back.
