@@ -1,0 +1,185 @@
+WEBVTT
+
+1
+00:00:00.008 --> 00:00:01.008
+- [Narrator] The rate of adoption
+
+2
+00:00:01.008 --> 00:00:04.007
+for modern AI tools is unprecedented.
+
+3
+00:00:04.007 --> 00:00:06.009
+ChatGPT became the fastest-growing
+
+4
+00:00:06.009 --> 00:00:08.003
+online product in history,
+
+5
+00:00:08.003 --> 00:00:11.009
+reaching one million users in only five days.
+
+6
+00:00:11.009 --> 00:00:14.008
+So if it felt like ChatGPT came out of nowhere,
+
+7
+00:00:14.008 --> 00:00:15.008
+it sort of did.
+
+8
+00:00:15.008 --> 00:00:19.004
+Let's take a look at how other online platforms compare.
+
+9
+00:00:19.004 --> 00:00:23.007
+It took Netflix 3.5 years to get to one million users.
+
+10
+00:00:23.007 --> 00:00:27.001
+It took Twitter two years. It took Facebook 10 months.
+
+11
+00:00:27.001 --> 00:00:30.002
+Instagram took 2.5 months, which is pretty good.
+
+12
+00:00:30.002 --> 00:00:33.007
+But ChatGPT took a mere five days.
+
+13
+00:00:33.007 --> 00:00:36.007
+This adoption rate is mind-boggling for any product,
+
+14
+00:00:36.007 --> 00:00:38.007
+and we're starting to see this cascade
+
+15
+00:00:38.007 --> 00:00:40.008
+into the AI industry as a whole.
+
+16
+00:00:40.008 --> 00:00:43.002
+The rapid advancements in AI technology
+
+17
+00:00:43.002 --> 00:00:45.008
+as well as the success of ChatGPT
+
+18
+00:00:45.008 --> 00:00:47.006
+have helped lead an explosion
+
+19
+00:00:47.006 --> 00:00:50.004
+of new app services and players in the field.
+
+20
+00:00:50.004 --> 00:00:52.005
+We're seeing implementations of AI
+
+21
+00:00:52.005 --> 00:00:55.007
+in everywhere from text to video, to images,
+
+22
+00:00:55.007 --> 00:00:59.006
+to code, to speech, 3D modeling, music, and much more.
+
+23
+00:00:59.006 --> 00:01:02.004
+And we're not necessarily saying that the companies
+
+24
+00:01:02.004 --> 00:01:05.001
+on this page are going to be what we think are winners
+
+25
+00:01:05.001 --> 00:01:06.005
+in their given spaces.
+
+26
+00:01:06.005 --> 00:01:07.007
+But it is worth pointing out,
+
+27
+00:01:07.007 --> 00:01:10.004
+we're seeing more folks try to leverage AI
+
+28
+00:01:10.004 --> 00:01:13.005
+and apply them to specific problems than we've ever seen.
+
+29
+00:01:13.005 --> 00:01:15.008
+So we expect a lot of areas
+
+30
+00:01:15.008 --> 00:01:17.009
+of traditional work to be transformed
+
+31
+00:01:17.009 --> 00:01:20.002
+or augmented by these tools.
+
+32
+00:01:20.002 --> 00:01:22.004
+But in this course, we're going to be primarily focused
+
+33
+00:01:22.004 --> 00:01:25.001
+on ChatGPT and Google Bard, which are two
+
+34
+00:01:25.001 --> 00:01:28.002
+of the most popular GPT tools on the market.
+
+35
+00:01:28.002 --> 00:01:30.005
+ChatGPT was developed by OpenAI
+
+36
+00:01:30.005 --> 00:01:32.009
+which has a close partnership with Microsoft
+
+37
+00:01:32.009 --> 00:01:35.007
+and Bard was developed in-house at Google.
+
+38
+00:01:35.007 --> 00:01:39.009
+ChatGPT made headlines first releasing in November, 2022,
+
+39
+00:01:39.009 --> 00:01:42.001
+but Google Bard released shortly thereafter
+
+40
+00:01:42.001 --> 00:01:45.003
+in early 2023 and is a viable competitor.
+
+41
+00:01:45.003 --> 00:01:47.005
+Both of these tools have a few unique strengths
+
+42
+00:01:47.005 --> 00:01:49.001
+but are very similar in terms
+
+43
+00:01:49.001 --> 00:01:52.003
+of benefits and limitations for data professionals.
+
+44
+00:01:52.003 --> 00:01:54.003
+Speaking of limitations, let's go ahead
+
+45
+00:01:54.003 --> 00:01:56.002
+and take a look at some common pitfalls
+
+46
+00:01:56.002 --> 00:01:58.005
+that we can experience when using these tools.
