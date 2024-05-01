@@ -1,0 +1,465 @@
+WEBVTT
+
+1
+00:00:00.006 --> 00:00:02.004
+- [Instructor] All right, if you are a data analyst
+
+2
+00:00:02.004 --> 00:00:04.007
+or an Excel user and you're looking for a fun way
+
+3
+00:00:04.007 --> 00:00:08.004
+to use ChatGPT, here's a great demo for you.
+
+4
+00:00:08.004 --> 00:00:10.005
+I'm going to show you how you can use ChatGPT
+
+5
+00:00:10.005 --> 00:00:13.002
+to generate custom sample data sets
+
+6
+00:00:13.002 --> 00:00:15.009
+that you can use to practice your skills.
+
+7
+00:00:15.009 --> 00:00:16.008
+So check this out.
+
+8
+00:00:16.008 --> 00:00:19.000
+I'm going to walk through a couple different examples.
+
+9
+00:00:19.000 --> 00:00:21.004
+We're going to start with a prompt like this.
+
+10
+00:00:21.004 --> 00:00:23.003
+"I'm a recently hired web analyst
+
+11
+00:00:23.003 --> 00:00:25.000
+for an e-commerce business,
+
+12
+00:00:25.000 --> 00:00:28.004
+looking for sample data that I can use to apply my skills.
+
+13
+00:00:28.004 --> 00:00:30.006
+Can you please produce a sample data set
+
+14
+00:00:30.006 --> 00:00:33.008
+in CSV format containing common fields
+
+15
+00:00:33.008 --> 00:00:37.005
+that web analysts typically encounter on the job?"
+
+16
+00:00:37.005 --> 00:00:41.005
+Let's see what we get back.
+
+17
+00:00:41.005 --> 00:00:45.003
+So, "Certainly, here's a sample dataset in CSV format
+
+18
+00:00:45.003 --> 00:00:46.007
+that contains common fields,
+
+19
+00:00:46.007 --> 00:00:49.000
+often encountered by web analysts."
+
+20
+00:00:49.000 --> 00:00:51.004
+And it's producing the data right here.
+
+21
+00:00:51.004 --> 00:00:55.000
+Looks like we've got columns like timestamp, visitor_id
+
+22
+00:00:55.000 --> 00:00:55.009
+and so on.
+
+23
+00:00:55.009 --> 00:00:56.008
+And check this out.
+
+24
+00:00:56.008 --> 00:01:00.000
+It's actually providing a nice little data dictionary here
+
+25
+00:01:00.000 --> 00:01:03.001
+with descriptions of the fields that it produced.
+
+26
+00:01:03.001 --> 00:01:06.005
+Timestamp, id, page_url, referral_source,
+
+27
+00:01:06.005 --> 00:01:10.009
+device_type, product_category, quantity, transaction_id.
+
+28
+00:01:10.009 --> 00:01:13.003
+These are actually really, really accurate
+
+29
+00:01:13.003 --> 00:01:16.001
+and relevant metrics for web analytics.
+
+30
+00:01:16.001 --> 00:01:18.003
+I actually spent about 10 years working
+
+31
+00:01:18.003 --> 00:01:22.000
+in a web analyst role, and this is very representative
+
+32
+00:01:22.000 --> 00:01:25.007
+of the types of data sets that we would analyze on the job.
+
+33
+00:01:25.007 --> 00:01:28.003
+So that's great. We could just copy the code.
+
+34
+00:01:28.003 --> 00:01:31.000
+We could dump it into Excel and start playing with it.
+
+35
+00:01:31.000 --> 00:01:34.000
+Now I want to show a slightly different example,
+
+36
+00:01:34.000 --> 00:01:36.009
+using a very similar type of prompt
+
+37
+00:01:36.009 --> 00:01:39.004
+and I'm going to create a new chat for this one.
+
+38
+00:01:39.004 --> 00:01:42.006
+And this time we're a recently hired data analyst
+
+39
+00:01:42.006 --> 00:01:45.006
+for an HR firm, again, looking for sample data
+
+40
+00:01:45.006 --> 00:01:46.008
+to practice with.
+
+41
+00:01:46.008 --> 00:01:48.001
+Now we can specify,
+
+42
+00:01:48.001 --> 00:01:52.004
+let's produce a 50 record sample again in CSV format.
+
+43
+00:01:52.004 --> 00:01:54.003
+And now we want it to contain common fields
+
+44
+00:01:54.003 --> 00:01:57.007
+that HR analysts typically encounter on the job.
+
+45
+00:01:57.007 --> 00:02:01.005
+So by default, I think ChatGPT typically produces,
+
+46
+00:02:01.005 --> 00:02:03.005
+like, 10 record samples.
+
+47
+00:02:03.005 --> 00:02:06.001
+So we could do 50 or 100.
+
+48
+00:02:06.001 --> 00:02:09.006
+Generally speaking, we can't provide large data sets here.
+
+49
+00:02:09.006 --> 00:02:13.007
+So let's give this one a shot.
+
+50
+00:02:13.007 --> 00:02:17.009
+Right away, it starts producing that 50 record data set.
+
+51
+00:02:17.009 --> 00:02:20.003
+This time we have HR specific fields,
+
+52
+00:02:20.003 --> 00:02:24.000
+like, employee id, first name, last name, birthday,
+
+53
+00:02:24.000 --> 00:02:26.004
+gender, department, position.
+
+54
+00:02:26.004 --> 00:02:29.003
+Looks like we've got some salaries here as well.
+
+55
+00:02:29.003 --> 00:02:33.003
+And let's go ahead and let this run its course.
+
+56
+00:02:33.003 --> 00:02:34.009
+And sometimes you might notice, when you're trying
+
+57
+00:02:34.009 --> 00:02:37.008
+to get it to produce a lot of code like this,
+
+58
+00:02:37.008 --> 00:02:38.009
+sometimes it hangs up
+
+59
+00:02:38.009 --> 00:02:41.008
+and you need to click this continue generating button.
+
+60
+00:02:41.008 --> 00:02:43.008
+This is going to kind of pick up where it left off
+
+61
+00:02:43.008 --> 00:02:48.000
+and hopefully get us all the way to our 50 records sample.
+
+62
+00:02:48.000 --> 00:02:50.006
+There's our 50 records
+
+63
+00:02:50.006 --> 00:02:52.008
+and it gave us a little summary at the end.
+
+64
+00:02:52.008 --> 00:02:56.002
+Includes fields like employee id, first, last name,
+
+65
+00:02:56.002 --> 00:02:58.008
+date of birth, gender, department, position, salary,
+
+66
+00:02:58.008 --> 00:03:00.006
+start date, and end date.
+
+67
+00:03:00.006 --> 00:03:03.004
+So that sounds like a pretty good set of metrics
+
+68
+00:03:03.004 --> 00:03:05.005
+but we all know that in the real world,
+
+69
+00:03:05.005 --> 00:03:08.005
+the data isn't always this clean and tidy.
+
+70
+00:03:08.005 --> 00:03:10.007
+So here's a little pro tip for you.
+
+71
+00:03:10.007 --> 00:03:13.008
+One thing that I really like to do is add a prompt,
+
+72
+00:03:13.008 --> 00:03:16.009
+that sounds something like this.
+
+73
+00:03:16.009 --> 00:03:19.003
+"The data we normally deal with is pretty messy,
+
+74
+00:03:19.003 --> 00:03:22.008
+so I'd like to practice my data cleaning skills as well."
+
+75
+00:03:22.008 --> 00:03:23.006
+And now check this out.
+
+76
+00:03:23.006 --> 00:03:27.006
+We're going to ask ChatGPT to modify this data sample
+
+77
+00:03:27.006 --> 00:03:30.003
+to include some common data QA issues
+
+78
+00:03:30.003 --> 00:03:33.007
+and also describe what types of changes it made.
+
+79
+00:03:33.007 --> 00:03:37.007
+Let's go ahead and enter that prompt.
+
+80
+00:03:37.007 --> 00:03:41.002
+It's going to go ahead and modify the sample data set
+
+81
+00:03:41.002 --> 00:03:43.002
+and it's going to make these types of changes.
+
+82
+00:03:43.002 --> 00:03:45.002
+So it's adding missing values,
+
+83
+00:03:45.002 --> 00:03:48.001
+it's introducing inconsistent date formats.
+
+84
+00:03:48.001 --> 00:03:50.004
+It's adding some duplicated records,
+
+85
+00:03:50.004 --> 00:03:52.008
+inconsistent capitalization.
+
+86
+00:03:52.008 --> 00:03:56.001
+Again, very, very common real-world issue.
+
+87
+00:03:56.001 --> 00:04:00.009
+Some incorrect salary values and gender values as well.
+
+88
+00:04:00.009 --> 00:04:02.003
+So this is awesome.
+
+89
+00:04:02.003 --> 00:04:04.008
+These are real-world data issues
+
+90
+00:04:04.008 --> 00:04:08.001
+that analysts often encounter in the real world.
+
+91
+00:04:08.001 --> 00:04:10.001
+So it gives the modified sample dataset
+
+92
+00:04:10.001 --> 00:04:11.007
+with those described changes.
+
+93
+00:04:11.007 --> 00:04:14.006
+Again, we can copy this, we can paste it into Excel
+
+94
+00:04:14.006 --> 00:04:15.009
+and in a matter of minutes,
+
+95
+00:04:15.009 --> 00:04:18.004
+we've got a great relevant sample data set,
+
+96
+00:04:18.004 --> 00:04:20.009
+that we can use to practice our skills.
+
+97
+00:04:20.009 --> 00:04:23.007
+So overall, I had a lot of fun with this demo.
+
+98
+00:04:23.007 --> 00:04:26.008
+I think ChatGPT did a really nice job
+
+99
+00:04:26.008 --> 00:04:29.009
+identifying relevant industry specific fields
+
+100
+00:04:29.009 --> 00:04:33.003
+for the sample data, and it made it very easy to simply copy
+
+101
+00:04:33.003 --> 00:04:36.004
+and paste that CSV format right into Excel.
+
+102
+00:04:36.004 --> 00:04:38.002
+And now that's helpful in itself.
+
+103
+00:04:38.002 --> 00:04:42.001
+But the ability to inject realistic data quality issues
+
+104
+00:04:42.001 --> 00:04:44.002
+was the icing on the cake for me.
+
+105
+00:04:44.002 --> 00:04:46.004
+And this is really just scratching the surface
+
+106
+00:04:46.004 --> 00:04:48.007
+of the types of prompts we could play with
+
+107
+00:04:48.007 --> 00:04:50.005
+for this type of use case.
+
+108
+00:04:50.005 --> 00:04:52.003
+Now, the obvious drawback here is that
+
+109
+00:04:52.003 --> 00:04:54.008
+it's tough to get larger data samples.
+
+110
+00:04:54.008 --> 00:04:56.008
+In fact, we saw it hang up a few times
+
+111
+00:04:56.008 --> 00:04:59.003
+even generating just 50 records.
+
+112
+00:04:59.003 --> 00:05:02.003
+But still, this is a valuable learning resource
+
+113
+00:05:02.003 --> 00:05:05.002
+and something that I expect will improve quite a bit
+
+114
+00:05:05.002 --> 00:05:07.009
+as the technology continues to advance.
+
+115
+00:05:07.009 --> 00:05:11.002
+But in any case, great way to grab some sample data quickly,
+
+116
+00:05:11.002 --> 00:05:14.001
+so that you can roll up your sleeves and start practicing.
