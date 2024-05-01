@@ -1,0 +1,453 @@
+WEBVTT
+
+1
+00:00:00.006 --> 00:00:02.001
+- [Instructor] Next up, I've got a really fun demo for you.
+
+2
+00:00:02.001 --> 00:00:03.000
+We're going to talk
+
+3
+00:00:03.000 --> 00:00:04.009
+about how you can use ChatGPT
+
+4
+00:00:04.009 --> 00:00:06.006
+to Automate Tasks in Excel
+
+5
+00:00:06.006 --> 00:00:10.000
+By Generating VBA Scripts and Macros.
+
+6
+00:00:10.000 --> 00:00:11.008
+So for this demo, what I've got here is a list
+
+7
+00:00:11.008 --> 00:00:15.001
+of some of the top earning movies of all time.
+
+8
+00:00:15.001 --> 00:00:18.002
+It's stored in a macro-enabled Excel workbook,
+
+9
+00:00:18.002 --> 00:00:20.004
+but you can see that it's a little bit messy, right.
+
+10
+00:00:20.004 --> 00:00:22.005
+My row heights are all over the place.
+
+11
+00:00:22.005 --> 00:00:24.009
+My column widths aren't fit properly,
+
+12
+00:00:24.009 --> 00:00:28.003
+and basically my goal is to clean and polish this up.
+
+13
+00:00:28.003 --> 00:00:31.005
+Maybe add some alternating row highlights with the goal
+
+14
+00:00:31.005 --> 00:00:35.006
+of exporting this as a static PDF that I can share.
+
+15
+00:00:35.006 --> 00:00:38.001
+Now, that's certainly possible to do manually
+
+16
+00:00:38.001 --> 00:00:39.007
+or just take a few steps,
+
+17
+00:00:39.007 --> 00:00:42.007
+but if this is something that I'm going to do again and again,
+
+18
+00:00:42.007 --> 00:00:46.003
+it makes it a great candidate for VBA automation.
+
+19
+00:00:46.003 --> 00:00:48.006
+So let's pop into ChatGPT.
+
+20
+00:00:48.006 --> 00:00:51.002
+Let's describe exactly what we're looking for
+
+21
+00:00:51.002 --> 00:00:55.002
+and see if it can produce AVBA script that we can use.
+
+22
+00:00:55.002 --> 00:00:56.007
+Alright, so let's go ahead and plug
+
+23
+00:00:56.007 --> 00:00:59.009
+in a description of what we're looking for.
+
+24
+00:00:59.009 --> 00:01:01.002
+Be very descriptive and clear here, right,
+
+25
+00:01:01.002 --> 00:01:03.005
+I have an Excel worksheet named top movies
+
+26
+00:01:03.005 --> 00:01:06.001
+containing a table with the following fields, title,
+
+27
+00:01:06.001 --> 00:01:10.000
+genre country rating, IMDB score and gross revenue.
+
+28
+00:01:10.000 --> 00:01:12.008
+Can you please generate AVBA script to autofit
+
+29
+00:01:12.008 --> 00:01:15.002
+all rows and columns,
+
+30
+00:01:15.002 --> 00:01:18.003
+bold the first row, highlight every other row,
+
+31
+00:01:18.003 --> 00:01:23.001
+and save it to my desktop using this file path as a PDF?
+
+32
+00:01:23.001 --> 00:01:25.005
+And because I'm not really strong with VBA,
+
+33
+00:01:25.005 --> 00:01:26.004
+I've also asked it
+
+34
+00:01:26.004 --> 00:01:29.005
+to provide clear step-by-step instructions.
+
+35
+00:01:29.005 --> 00:01:32.008
+So let's see how this goes.
+
+36
+00:01:32.008 --> 00:01:34.002
+All right, so far so good.
+
+37
+00:01:34.002 --> 00:01:35.008
+It says I can help you with that.
+
+38
+00:01:35.008 --> 00:01:39.001
+Here's a step-by-step guide to creating a VBA script,
+
+39
+00:01:39.001 --> 00:01:42.005
+that will do all of those steps that we described.
+
+40
+00:01:42.005 --> 00:01:45.000
+It's writing the script now.
+
+41
+00:01:45.000 --> 00:01:46.008
+You can see some comments in here.
+
+42
+00:01:46.008 --> 00:01:48.005
+Really nice that it's commenting the code,
+
+43
+00:01:48.005 --> 00:01:51.009
+making it nice and clear,
+
+44
+00:01:51.009 --> 00:01:53.005
+and then it's giving us kind of
+
+45
+00:01:53.005 --> 00:01:57.000
+all of those steps that we'll need to follow
+
+46
+00:01:57.000 --> 00:01:58.005
+and this is looking good so far.
+
+47
+00:01:58.005 --> 00:02:02.007
+So basically we're creating a sub-routine export as PDF.
+
+48
+00:02:02.007 --> 00:02:04.008
+We're setting variable names for the worksheet
+
+49
+00:02:04.008 --> 00:02:06.000
+and the string.
+
+50
+00:02:06.000 --> 00:02:08.002
+This is where we're autofitting the rows and columns.
+
+51
+00:02:08.002 --> 00:02:11.000
+This is where we're formatting the table with those kind
+
+52
+00:02:11.000 --> 00:02:13.001
+of highlights every other row.
+
+53
+00:02:13.001 --> 00:02:14.007
+This is where we're saving it as a PDF.
+
+54
+00:02:14.007 --> 00:02:16.008
+You can see that it's used the file path,
+
+55
+00:02:16.008 --> 00:02:20.004
+it's named at top movies PDF, which makes sense.
+
+56
+00:02:20.004 --> 00:02:22.001
+And then this is really nice too at the end,
+
+57
+00:02:22.001 --> 00:02:24.007
+it's popping up a message box that's going to say,
+
+58
+00:02:24.007 --> 00:02:27.006
+worksheet saved as PDF on the desktop,
+
+59
+00:02:27.006 --> 00:02:29.006
+which is a nice touch as well.
+
+60
+00:02:29.006 --> 00:02:31.001
+So this is looking great.
+
+61
+00:02:31.001 --> 00:02:33.004
+Let's go ahead and copy this code
+
+62
+00:02:33.004 --> 00:02:36.004
+and let's jump back into our Excel workbook
+
+63
+00:02:36.004 --> 00:02:38.003
+and we can either use F11
+
+64
+00:02:38.003 --> 00:02:40.005
+or head to our developer tab
+
+65
+00:02:40.005 --> 00:02:42.004
+to open up the VBA dialogue box
+
+66
+00:02:42.004 --> 00:02:46.004
+or window right here and right here in sheet two top movies.
+
+67
+00:02:46.004 --> 00:02:47.008
+Let's go ahead and view the code
+
+68
+00:02:47.008 --> 00:02:52.005
+and paste that code that ChatGPT produced right here.
+
+69
+00:02:52.005 --> 00:02:54.001
+So let's go ahead and give this a shot.
+
+70
+00:02:54.001 --> 00:02:56.007
+I don't think I need to necessarily change anything here
+
+71
+00:02:56.007 --> 00:02:58.001
+at least right off the bat.
+
+72
+00:02:58.001 --> 00:03:01.004
+Let's go ahead and save that, close the editor.
+
+73
+00:03:01.004 --> 00:03:02.008
+And now is a nice little touch
+
+74
+00:03:02.008 --> 00:03:06.002
+what I'm going to do is insert a little box here
+
+75
+00:03:06.002 --> 00:03:09.000
+kind of like a button that we can use.
+
+76
+00:03:09.000 --> 00:03:14.005
+Add some text, export as PDF
+
+77
+00:03:14.005 --> 00:03:16.007
+and we'll format that a little bit like so
+
+78
+00:03:16.007 --> 00:03:18.001
+and then I can right click.
+
+79
+00:03:18.001 --> 00:03:20.000
+We're going to assign a macro
+
+80
+00:03:20.000 --> 00:03:22.005
+and that's the sub-routine or the macro
+
+81
+00:03:22.005 --> 00:03:27.000
+that ChatGPT just produced, export as PDF, press OK.
+
+82
+00:03:27.000 --> 00:03:28.005
+And now drum roll please,
+
+83
+00:03:28.005 --> 00:03:29.007
+if I click this button
+
+84
+00:03:29.007 --> 00:03:34.007
+what we should see, again, is the columns and rows autofit.
+
+85
+00:03:34.007 --> 00:03:37.005
+We should see every other row get highlighted.
+
+86
+00:03:37.005 --> 00:03:41.001
+We should see that top header row get formatted in bold.
+
+87
+00:03:41.001 --> 00:03:44.005
+And most importantly, it should export that data set
+
+88
+00:03:44.005 --> 00:03:47.007
+as a static PDF on my desktop.
+
+89
+00:03:47.007 --> 00:03:51.006
+So cross your fingers, let's give it a click.
+
+90
+00:03:51.006 --> 00:03:52.004
+There we go.
+
+91
+00:03:52.004 --> 00:03:53.002
+We get that message box.
+
+92
+00:03:53.002 --> 00:03:56.001
+It says worksheet saved as PDF on the desktop.
+
+93
+00:03:56.001 --> 00:03:58.006
+We can see right here the columns did autofit.
+
+94
+00:03:58.006 --> 00:04:01.005
+The rows autofit, header row is bold.
+
+95
+00:04:01.005 --> 00:04:04.007
+We've got that alternating highlighting, so far so good.
+
+96
+00:04:04.007 --> 00:04:08.000
+Now, let's go ahead and check our desktop and look at this,
+
+97
+00:04:08.000 --> 00:04:12.002
+we've got a PDF called Top movies, and when we double click
+
+98
+00:04:12.002 --> 00:04:14.005
+there is our formatted data set
+
+99
+00:04:14.005 --> 00:04:17.002
+that ChatGPT helped us produce.
+
+100
+00:04:17.002 --> 00:04:20.003
+So overall, I was really, really impressed by this example,
+
+101
+00:04:20.003 --> 00:04:22.001
+especially as someone who doesn't have a ton
+
+102
+00:04:22.001 --> 00:04:24.005
+of experience writing VBA code.
+
+103
+00:04:24.005 --> 00:04:26.005
+This probably would've taken me closer to 20
+
+104
+00:04:26.005 --> 00:04:28.007
+or 30 minutes of trial and error
+
+105
+00:04:28.007 --> 00:04:32.002
+or searching online tutorials to produce this same code.
+
+106
+00:04:32.002 --> 00:04:35.004
+But ChatGPT gave it to us in about 30 seconds,
+
+107
+00:04:35.004 --> 00:04:38.001
+which is pretty unbelievable when you think about it.
+
+108
+00:04:38.001 --> 00:04:40.002
+I love that it added code comments.
+
+109
+00:04:40.002 --> 00:04:42.004
+I love that it included the file path.
+
+110
+00:04:42.004 --> 00:04:43.003
+It was nice
+
+111
+00:04:43.003 --> 00:04:46.002
+that it added those clear step-by-step instructions.
+
+112
+00:04:46.002 --> 00:04:49.007
+Just a great shortcut, especially for non-coders
+
+113
+00:04:49.007 --> 00:04:52.005
+who come across the need to use VBA for automation.
