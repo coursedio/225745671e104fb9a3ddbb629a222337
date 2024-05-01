@@ -1,0 +1,117 @@
+WEBVTT
+
+1
+00:00:00.002 --> 00:00:01.000
+- [Instructor] Hey everybody.
+
+2
+00:00:01.000 --> 00:00:04.007
+In this video we've got another tip for prompt engineering
+
+3
+00:00:04.007 --> 00:00:06.008
+to get better results from AI tools
+
+4
+00:00:06.008 --> 00:00:08.005
+like ChatGPT and Google Bard.
+
+5
+00:00:08.005 --> 00:00:11.007
+And that tip is to provide as much context
+
+6
+00:00:11.007 --> 00:00:15.004
+as the AI tool needs to get you the exact result
+
+7
+00:00:15.004 --> 00:00:17.001
+that you need to solve your problem.
+
+8
+00:00:17.001 --> 00:00:18.006
+Let's go through a quick example.
+
+9
+00:00:18.006 --> 00:00:21.001
+So we've got this first original prompt saying,
+
+10
+00:00:21.001 --> 00:00:24.000
+"What are common supply chain KPIs?"
+
+11
+00:00:24.000 --> 00:00:26.004
+And that works, but look at what comes back
+
+12
+00:00:26.004 --> 00:00:28.005
+when we give a lot more context saying,
+
+13
+00:00:28.005 --> 00:00:31.005
+"I'm a data analyst working on supply chain analytics
+
+14
+00:00:31.005 --> 00:00:33.007
+for a multinational distribution company.
+
+15
+00:00:33.007 --> 00:00:36.007
+What KPIs should I be analyzing for each metric
+
+16
+00:00:36.007 --> 00:00:39.005
+please include a formula showing how it's calculated."
+
+17
+00:00:39.005 --> 00:00:41.000
+And then we even give an example
+
+18
+00:00:41.000 --> 00:00:42.007
+of what we'd like to see.
+
+19
+00:00:42.007 --> 00:00:44.004
+Here as an analyst who's trying
+
+20
+00:00:44.004 --> 00:00:46.006
+to get up to speed on a new industry,
+
+21
+00:00:46.006 --> 00:00:50.002
+this output that you get in the result is just fantastic.
+
+22
+00:00:50.002 --> 00:00:53.004
+It's exactly what you would want to see as a first pass
+
+23
+00:00:53.004 --> 00:00:55.000
+and then you could drill deeper
+
+24
+00:00:55.000 --> 00:00:56.002
+into each one of them after
+
+25
+00:00:56.002 --> 00:00:57.009
+to help yourself get up to speed.
+
+26
+00:00:57.009 --> 00:01:00.005
+So remember, when you're using these AI tools,
+
+27
+00:01:00.005 --> 00:01:02.001
+give them all the context.
+
+28
+00:01:02.001 --> 00:01:04.009
+It can really help the AI produce a result
+
+29
+00:01:04.009 --> 00:01:07.002
+that's going to be exactly what you need.
