@@ -1,0 +1,145 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:00.009
+- [Instructor] Okay, so now
+
+2
+00:00:00.009 --> 00:00:03.000
+that we've covered some important background information
+
+3
+00:00:03.000 --> 00:00:03.008
+on these tools,
+
+4
+00:00:03.008 --> 00:00:06.000
+it's time to take a look at how to access them.
+
+5
+00:00:06.000 --> 00:00:07.006
+It's quite straightforward.
+
+6
+00:00:07.006 --> 00:00:11.007
+You can access ChatGPT for free at chat.openai.com.
+
+7
+00:00:11.007 --> 00:00:13.006
+Once you visit that site for the first time,
+
+8
+00:00:13.006 --> 00:00:16.006
+you'll see a Create your account window pop up,
+
+9
+00:00:16.006 --> 00:00:19.003
+and OpenAI currently allows anyone to sign up
+
+10
+00:00:19.003 --> 00:00:21.006
+and use ChatGPT for free.
+
+11
+00:00:21.006 --> 00:00:22.008
+It's also worth being aware
+
+12
+00:00:22.008 --> 00:00:24.009
+that there's a paid premium version as well
+
+13
+00:00:24.009 --> 00:00:27.006
+that gets you access to a more advanced model
+
+14
+00:00:27.006 --> 00:00:29.004
+and fewer usage constraints.
+
+15
+00:00:29.004 --> 00:00:31.007
+But we'll be using the free version in this course.
+
+16
+00:00:31.007 --> 00:00:34.003
+You can either create an account by using an email address
+
+17
+00:00:34.003 --> 00:00:38.000
+or by connecting to an existing Microsoft or Google account.
+
+18
+00:00:38.000 --> 00:00:39.006
+And if you're curious about reading more
+
+19
+00:00:39.006 --> 00:00:42.002
+from the OpenAI team on ChatGPT,
+
+20
+00:00:42.002 --> 00:00:47.006
+you can go to their blog at openai.com/blog/chatgpt.
+
+21
+00:00:47.006 --> 00:00:50.002
+It's very straightforward to get started.
+
+22
+00:00:50.002 --> 00:00:52.000
+Google Bard is quite similar.
+
+23
+00:00:52.000 --> 00:00:55.005
+You can access Google Bard for free at bard.google.com.
+
+24
+00:00:55.005 --> 00:00:58.001
+Google does require that you have a Google account,
+
+25
+00:00:58.001 --> 00:00:59.009
+so if you already have a Gmail account,
+
+26
+00:00:59.009 --> 00:01:01.004
+you can use that to sign up.
+
+27
+00:01:01.004 --> 00:01:02.005
+And if you don't have one,
+
+28
+00:01:02.005 --> 00:01:04.008
+you'll be prompted to create one on the page.
+
+29
+00:01:04.008 --> 00:01:06.007
+Google made Bard available for free
+
+30
+00:01:06.007 --> 00:01:09.002
+in May 2023 in most countries,
+
+31
+00:01:09.002 --> 00:01:10.007
+and if you want to read more about Bard,
+
+32
+00:01:10.007 --> 00:01:13.008
+you can go to bard.google.com/faq.
+
+33
+00:01:13.008 --> 00:01:15.006
+So if you want to get started with these tools
+
+34
+00:01:15.006 --> 00:01:17.001
+and work alongside us,
+
+35
+00:01:17.001 --> 00:01:19.002
+go ahead and take a few minutes to get set up,
+
+36
+00:01:19.002 --> 00:01:21.002
+and you'll see John in the next section.
