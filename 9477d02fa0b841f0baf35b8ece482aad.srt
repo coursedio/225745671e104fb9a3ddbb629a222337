@@ -1,0 +1,453 @@
+WEBVTT
+
+1
+00:00:01.000 --> 00:00:02.002
+- [Instructor] Generative AI systems
+
+2
+00:00:02.002 --> 00:00:03.004
+are deep learning models
+
+3
+00:00:03.004 --> 00:00:06.003
+capable of generating original text, images,
+
+4
+00:00:06.003 --> 00:00:09.006
+and other types of media in response to user prompts.
+
+5
+00:00:09.006 --> 00:00:10.008
+Large language models,
+
+6
+00:00:10.008 --> 00:00:12.007
+which is what we're focused on in this course,
+
+7
+00:00:12.007 --> 00:00:14.002
+are generative AI models
+
+8
+00:00:14.002 --> 00:00:17.007
+focused on producing text output specifically.
+
+9
+00:00:17.007 --> 00:00:20.007
+Other generative AI models include DALL-E and Midjourney,
+
+10
+00:00:20.007 --> 00:00:22.006
+which are used to generate images.
+
+11
+00:00:22.006 --> 00:00:24.006
+And if you haven't heard of these two tools yet,
+
+12
+00:00:24.006 --> 00:00:26.004
+I highly suggest taking a look
+
+13
+00:00:26.004 --> 00:00:28.007
+for Midjourney images on Google.
+
+14
+00:00:28.007 --> 00:00:30.009
+You'll find some very interesting images
+
+15
+00:00:30.009 --> 00:00:32.006
+that have been created by AI.
+
+16
+00:00:32.006 --> 00:00:34.005
+And so just to give us a little bit of insight
+
+17
+00:00:34.005 --> 00:00:37.000
+into how complex these algorithms really are,
+
+18
+00:00:37.000 --> 00:00:39.002
+let's take a look at a simple language model.
+
+19
+00:00:39.002 --> 00:00:42.001
+So maybe the first prototype of ChatGPT
+
+20
+00:00:42.001 --> 00:00:44.003
+looks something like this.
+
+21
+00:00:44.003 --> 00:00:47.009
+I prompt the machine "The capital of France is",
+
+22
+00:00:47.009 --> 00:00:48.009
+and we hope to see
+
+23
+00:00:48.009 --> 00:00:52.000
+the capital of France is Paris in return.
+
+24
+00:00:52.000 --> 00:00:54.005
+And so most of us know almost instinctually
+
+25
+00:00:54.005 --> 00:00:56.008
+that the capital of France is Paris.
+
+26
+00:00:56.008 --> 00:00:59.006
+But how does the model fill in the blank?
+
+27
+00:00:59.006 --> 00:01:02.004
+The model doesn't know that Paris is the correct response
+
+28
+00:01:02.004 --> 00:01:03.006
+but suggests the answer
+
+29
+00:01:03.006 --> 00:01:06.008
+that it thinks is most probable in the given context.
+
+30
+00:01:06.008 --> 00:01:09.000
+So 99 times out of 100,
+
+31
+00:01:09.000 --> 00:01:11.005
+when we see the capital of France is,
+
+32
+00:01:11.005 --> 00:01:13.008
+the last word there will be Paris.
+
+33
+00:01:13.008 --> 00:01:17.000
+But this model has to compare Paris with thousands of words
+
+34
+00:01:17.000 --> 00:01:19.005
+and determine that it had the strongest relationship
+
+35
+00:01:19.005 --> 00:01:22.000
+with words like capital and France.
+
+36
+00:01:22.000 --> 00:01:26.000
+And that may seem easy and it certainly is to our brains.
+
+37
+00:01:26.000 --> 00:01:29.000
+But remember that the word capital has multiple meanings,
+
+38
+00:01:29.000 --> 00:01:31.008
+that France has had other capitals historically,
+
+39
+00:01:31.008 --> 00:01:34.006
+and that the blank could also be things like beautiful,
+
+40
+00:01:34.006 --> 00:01:37.003
+a popular tourist destination, et cetera.
+
+41
+00:01:37.003 --> 00:01:40.004
+So even though we expect the answer to be Paris,
+
+42
+00:01:40.004 --> 00:01:42.004
+these models have to rank the probability
+
+43
+00:01:42.004 --> 00:01:44.002
+that Paris is the correct answer
+
+44
+00:01:44.002 --> 00:01:46.005
+against thousands, if not hundreds of thousands,
+
+45
+00:01:46.005 --> 00:01:49.000
+of other options that might have some probability
+
+46
+00:01:49.000 --> 00:01:50.005
+of being correct.
+
+47
+00:01:50.005 --> 00:01:52.000
+And when we take that a step further,
+
+48
+00:01:52.000 --> 00:01:55.000
+our large language model has to do a lot more work.
+
+49
+00:01:55.000 --> 00:01:57.004
+I could ask, when did Paris become the capital of France?
+
+50
+00:01:57.004 --> 00:02:00.008
+And ChatGPT replied, Paris became the capital of France
+
+51
+00:02:00.008 --> 00:02:02.005
+in the sixth century.
+
+52
+00:02:02.005 --> 00:02:05.001
+But how does the model answer this question?
+
+53
+00:02:05.001 --> 00:02:07.006
+It looks at millions of documents for similar questions
+
+54
+00:02:07.006 --> 00:02:08.007
+and related statements,
+
+55
+00:02:08.007 --> 00:02:12.007
+like "in 508 AD Paris became the capital of France".
+
+56
+00:02:12.007 --> 00:02:14.009
+It then associates the prompt with these documents
+
+57
+00:02:14.009 --> 00:02:18.005
+and does its best to mimic the language from the responses.
+
+58
+00:02:18.005 --> 00:02:20.002
+Since it has an element of randomness
+
+59
+00:02:20.002 --> 00:02:21.007
+to account for its uncertainty,
+
+60
+00:02:21.007 --> 00:02:22.008
+if you ask it again,
+
+61
+00:02:22.008 --> 00:02:25.008
+it will likely tell you something similar but not identical.
+
+62
+00:02:25.008 --> 00:02:28.003
+And so large language models like ChatGPT
+
+63
+00:02:28.003 --> 00:02:30.006
+are colossal achievements in machine learning
+
+64
+00:02:30.006 --> 00:02:33.007
+that model the quote unquote shape of language.
+
+65
+00:02:33.007 --> 00:02:36.003
+They've looked at so many millions of documents
+
+66
+00:02:36.003 --> 00:02:38.005
+from the internet and elsewhere
+
+67
+00:02:38.005 --> 00:02:41.001
+that they're pretty accurately able to associate
+
+68
+00:02:41.001 --> 00:02:44.002
+these different combinations of words in our prompt
+
+69
+00:02:44.002 --> 00:02:46.008
+and assemble responses based on the millions
+
+70
+00:02:46.008 --> 00:02:48.001
+of documents that they've seen.
+
+71
+00:02:48.001 --> 00:02:50.009
+If you look at early versions of generative AI,
+
+72
+00:02:50.009 --> 00:02:53.002
+the answers are wildly unpredictable
+
+73
+00:02:53.002 --> 00:02:55.003
+and often don't make grammatical sense.
+
+74
+00:02:55.003 --> 00:02:58.001
+But as these models have gotten more complex,
+
+75
+00:02:58.001 --> 00:03:01.001
+they've gotten closer and closer to mimicking human language
+
+76
+00:03:01.001 --> 00:03:02.007
+until now we have tools
+
+77
+00:03:02.007 --> 00:03:04.009
+that seem very credible in this regard.
+
+78
+00:03:04.009 --> 00:03:08.009
+And just to quickly define what GPT and ChatGPT means,
+
+79
+00:03:08.009 --> 00:03:12.001
+this stands for generative pre-trained transformers.
+
+80
+00:03:12.001 --> 00:03:13.009
+These are a type of large language model
+
+81
+00:03:13.009 --> 00:03:15.007
+trained on massive text datasets
+
+82
+00:03:15.007 --> 00:03:17.006
+and are designed to generate outputs
+
+83
+00:03:17.006 --> 00:03:19.004
+that mimic human written text.
+
+84
+00:03:19.004 --> 00:03:21.009
+So generative means the model generates new
+
+85
+00:03:21.009 --> 00:03:23.007
+and original natural language text
+
+86
+00:03:23.007 --> 00:03:26.005
+instead of copying and pasting existing data.
+
+87
+00:03:26.005 --> 00:03:27.009
+Pre-trained means the model
+
+88
+00:03:27.009 --> 00:03:29.008
+was already trained on a large dataset
+
+89
+00:03:29.008 --> 00:03:33.002
+before being fine-tuned to perform specific tasks.
+
+90
+00:03:33.002 --> 00:03:36.001
+This also enables models like ChatGPT
+
+91
+00:03:36.001 --> 00:03:39.005
+to be accessed by companies and further trained
+
+92
+00:03:39.005 --> 00:03:43.001
+to specific needs based on that context.
+
+93
+00:03:43.001 --> 00:03:44.006
+And finally, transformers,
+
+94
+00:03:44.006 --> 00:03:48.001
+which were one of the last pieces in deep learning necessary
+
+95
+00:03:48.001 --> 00:03:49.007
+to lead to ChatGPT.
+
+96
+00:03:49.007 --> 00:03:52.001
+These came out in around 2017.
+
+97
+00:03:52.001 --> 00:03:54.001
+But these are a type of deep learning model
+
+98
+00:03:54.001 --> 00:03:56.001
+that can process sequential inputs
+
+99
+00:03:56.001 --> 00:03:57.008
+and differentiate the importance
+
+100
+00:03:57.008 --> 00:04:00.000
+of individual parts of language.
+
+101
+00:04:00.000 --> 00:04:02.005
+This is also known as self-attention.
+
+102
+00:04:02.005 --> 00:04:06.000
+And LLMs like ChatGPT are among the most sophisticated
+
+103
+00:04:06.000 --> 00:04:08.003
+deep learning models ever built.
+
+104
+00:04:08.003 --> 00:04:12.004
+GPT-4, which currently powers premium versions of ChatGPT,
+
+105
+00:04:12.004 --> 00:04:14.003
+cost over a hundred million dollars
+
+106
+00:04:14.003 --> 00:04:17.003
+and took 11 months of computing to train
+
+107
+00:04:17.003 --> 00:04:19.002
+with some of the most state-of-the-art compute
+
+108
+00:04:19.002 --> 00:04:20.007
+available to us.
+
+109
+00:04:20.007 --> 00:04:25.000
+So these are incredibly complex and expensive algorithms
+
+110
+00:04:25.000 --> 00:04:27.006
+that have unparalleled access to data
+
+111
+00:04:27.006 --> 00:04:29.005
+and unparalleled complexity.
+
+112
+00:04:29.005 --> 00:04:31.005
+Now let's go through a quick history lesson
+
+113
+00:04:31.005 --> 00:04:35.003
+and understand how we got to complex models like ChatGPT.
