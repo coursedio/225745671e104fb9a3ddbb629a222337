@@ -1,0 +1,289 @@
+WEBVTT
+
+1
+00:00:00.001 --> 00:00:01.002
+- [Instructor] Okay, so I've just spent
+
+2
+00:00:01.002 --> 00:00:03.003
+the last several videos hyping up the achievements
+
+3
+00:00:03.003 --> 00:00:06.006
+and capabilities of artificial intelligence,
+
+4
+00:00:06.006 --> 00:00:09.004
+and while modern AI tools are certainly impressive
+
+5
+00:00:09.004 --> 00:00:14.003
+and often very useful, they are by no means perfect tools,
+
+6
+00:00:14.003 --> 00:00:16.006
+and so we need to be aware of some common pitfalls
+
+7
+00:00:16.006 --> 00:00:19.009
+to get the most out of these tools and working with them.
+
+8
+00:00:19.009 --> 00:00:22.008
+The first and probably most concerning is that LLMs
+
+9
+00:00:22.008 --> 00:00:25.008
+are known to hallucinate facts with total confidence.
+
+10
+00:00:25.008 --> 00:00:27.008
+There's a famous case circulating on social media
+
+11
+00:00:27.008 --> 00:00:31.003
+where a user asked ChatGPT to perform some research
+
+12
+00:00:31.003 --> 00:00:32.009
+on a medical topic.
+
+13
+00:00:32.009 --> 00:00:36.006
+ChatGPT provided an extremely comprehensive response
+
+14
+00:00:36.006 --> 00:00:38.006
+and cited a number of research papers
+
+15
+00:00:38.006 --> 00:00:41.002
+and authors along the way.
+
+16
+00:00:41.002 --> 00:00:43.006
+The problem is that when the user went to go look up
+
+17
+00:00:43.006 --> 00:00:45.009
+one of these papers and the set of authors,
+
+18
+00:00:45.009 --> 00:00:48.005
+he found that they didn't exist at all,
+
+19
+00:00:48.005 --> 00:00:51.009
+so ChatGPT had made up a paper and set of authors
+
+20
+00:00:51.009 --> 00:00:54.001
+to support one of the claims that it was making
+
+21
+00:00:54.001 --> 00:00:56.002
+that was incorrect.
+
+22
+00:00:56.002 --> 00:00:58.007
+So you have to remember that these tools aren't perfect
+
+23
+00:00:58.007 --> 00:00:59.009
+and that you're ultimately responsible
+
+24
+00:00:59.009 --> 00:01:03.000
+for verifying the outputs of these tools.
+
+25
+00:01:03.000 --> 00:01:04.004
+If you make a big false claim
+
+26
+00:01:04.004 --> 00:01:07.001
+based on something ChatGPT tells you,
+
+27
+00:01:07.001 --> 00:01:09.006
+OpenAI isn't going to take responsibility,
+
+28
+00:01:09.006 --> 00:01:11.007
+you're going to be responsible.
+
+29
+00:01:11.007 --> 00:01:13.008
+Along these lines, it's also worth being aware
+
+30
+00:01:13.008 --> 00:01:15.008
+that solutions provided may be suboptimal
+
+31
+00:01:15.008 --> 00:01:18.000
+or entirely incorrect.
+
+32
+00:01:18.000 --> 00:01:20.009
+So in some cases, ChatGPT will help you solve
+
+33
+00:01:20.009 --> 00:01:24.000
+an analytical problem, it will just be a very bad
+
+34
+00:01:24.000 --> 00:01:26.002
+or roundabout way to solve that problem.
+
+35
+00:01:26.002 --> 00:01:29.000
+And again, these tools don't guarantee accuracy
+
+36
+00:01:29.000 --> 00:01:32.007
+and might provide inefficient solutions.
+
+37
+00:01:32.007 --> 00:01:35.001
+Another thing to be aware of is that these tools are broad
+
+38
+00:01:35.001 --> 00:01:38.003
+and often lack specific domain knowledge.
+
+39
+00:01:38.003 --> 00:01:41.002
+LLMs may not understand specific business context
+
+40
+00:01:41.002 --> 00:01:44.000
+or the why behind the responses they produce.
+
+41
+00:01:44.000 --> 00:01:45.007
+So when I'm working with ChatGPT
+
+42
+00:01:45.007 --> 00:01:47.007
+to help me with Python code,
+
+43
+00:01:47.007 --> 00:01:50.006
+it tends to do very well with the what and how.
+
+44
+00:01:50.006 --> 00:01:53.003
+What function should I use to perform this analysis
+
+45
+00:01:53.003 --> 00:01:55.001
+and how should I perform them?
+
+46
+00:01:55.001 --> 00:01:56.009
+But it struggles with the why.
+
+47
+00:01:56.009 --> 00:01:58.006
+If I need to filter some retail sales data
+
+48
+00:01:58.006 --> 00:02:01.005
+down to a specific set of products,
+
+49
+00:02:01.005 --> 00:02:03.000
+it will tell me how to do that,
+
+50
+00:02:03.000 --> 00:02:05.007
+but it won't necessarily understand why I'm filtering down
+
+51
+00:02:05.007 --> 00:02:08.001
+to a specific set of products.
+
+52
+00:02:08.001 --> 00:02:10.000
+And finally, LLMs are not capable
+
+53
+00:02:10.000 --> 00:02:12.003
+of common sense or human judgment.
+
+54
+00:02:12.003 --> 00:02:14.005
+Models need specific, objective inputs
+
+55
+00:02:14.005 --> 00:02:16.001
+and may miss critical context
+
+56
+00:02:16.001 --> 00:02:18.007
+that may seem obvious to humans.
+
+57
+00:02:18.007 --> 00:02:20.003
+These models tend to only be as good
+
+58
+00:02:20.003 --> 00:02:22.001
+as the data that we give them,
+
+59
+00:02:22.001 --> 00:02:24.009
+and if we are not giving them the full set of context,
+
+60
+00:02:24.009 --> 00:02:27.001
+they will often miss the mark.
+
+61
+00:02:27.001 --> 00:02:28.008
+And so after listening to all of these pitfalls,
+
+62
+00:02:28.008 --> 00:02:30.004
+you might be a little bit skeptical
+
+63
+00:02:30.004 --> 00:02:33.000
+about using these tools altogether.
+
+64
+00:02:33.000 --> 00:02:34.009
+And so I want to be clear that,
+
+65
+00:02:34.009 --> 00:02:37.003
+even though there are some very dangerous pitfalls
+
+66
+00:02:37.003 --> 00:02:41.001
+to using these tools, understanding that there are pitfalls
+
+67
+00:02:41.001 --> 00:02:43.007
+to using these tools is half the battle.
+
+68
+00:02:43.007 --> 00:02:47.001
+If we don't treat these tools as a perfect source of truth,
+
+69
+00:02:47.001 --> 00:02:50.007
+but rather as one additional source of input or information,
+
+70
+00:02:50.007 --> 00:02:53.001
+we can get a lot out of them.
+
+71
+00:02:53.001 --> 00:02:54.003
+So with that said, let's go ahead
+
+72
+00:02:54.003 --> 00:02:56.006
+and take a look at how to access these tools.
