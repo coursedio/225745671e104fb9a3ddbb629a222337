@@ -1,0 +1,309 @@
+WEBVTT
+
+1
+00:00:00.008 --> 00:00:02.009
+- [Instructor] Before we dive into specific AI tools
+
+2
+00:00:02.009 --> 00:00:06.005
+like ChatGPT and Google Bard, it's worth taking a step back
+
+3
+00:00:06.005 --> 00:00:09.004
+and understanding the broader AI landscape.
+
+4
+00:00:09.004 --> 00:00:12.004
+Artificial intelligence is a very broad term
+
+5
+00:00:12.004 --> 00:00:14.007
+that relates to machines and computer systems
+
+6
+00:00:14.007 --> 00:00:17.008
+that mimic functions associated with human intelligence
+
+7
+00:00:17.008 --> 00:00:19.008
+like decision-making, image recognition,
+
+8
+00:00:19.008 --> 00:00:22.002
+self-driving cars, and more.
+
+9
+00:00:22.002 --> 00:00:24.000
+Within the field of artificial intelligence
+
+10
+00:00:24.000 --> 00:00:25.008
+lies machine learning.
+
+11
+00:00:25.008 --> 00:00:28.004
+These are going to be the models that act as the brains
+
+12
+00:00:28.004 --> 00:00:30.008
+of artificial intelligence systems.
+
+13
+00:00:30.008 --> 00:00:33.005
+They help computers learn with minimal human instruction
+
+14
+00:00:33.005 --> 00:00:36.008
+and get more accurate when exposed to more data.
+
+15
+00:00:36.008 --> 00:00:39.009
+And that more data piece is critical in explaining
+
+16
+00:00:39.009 --> 00:00:42.008
+why we've seen an explosion in AI and machine learning
+
+17
+00:00:42.008 --> 00:00:44.005
+in the past few decades.
+
+18
+00:00:44.005 --> 00:00:47.000
+With the proliferation of the internet,
+
+19
+00:00:47.000 --> 00:00:49.001
+mobile devices, internet of things,
+
+20
+00:00:49.001 --> 00:00:51.009
+we're now generating more data than we ever have
+
+21
+00:00:51.009 --> 00:00:53.008
+and that's enabled machine learning
+
+22
+00:00:53.008 --> 00:00:56.001
+to become more accurate than it ever could have been
+
+23
+00:00:56.001 --> 00:00:58.002
+prior to some of these inventions.
+
+24
+00:00:58.002 --> 00:01:00.007
+And within machine learning lies deep learning.
+
+25
+00:01:00.007 --> 00:01:03.003
+This is a very complex family of algorithms
+
+26
+00:01:03.003 --> 00:01:05.004
+that's designed to mimic the human brain
+
+27
+00:01:05.004 --> 00:01:09.001
+and learn almost exclusively without human intervention.
+
+28
+00:01:09.001 --> 00:01:11.004
+Large language models like ChatGPT
+
+29
+00:01:11.004 --> 00:01:14.001
+and Google Bard fall within this category.
+
+30
+00:01:14.001 --> 00:01:16.007
+And speaking of the human brain, there's still one area
+
+31
+00:01:16.007 --> 00:01:20.000
+where these models are not able to approach
+
+32
+00:01:20.000 --> 00:01:21.006
+what humans are able to do
+
+33
+00:01:21.006 --> 00:01:23.004
+and that brings up the conversation
+
+34
+00:01:23.004 --> 00:01:25.008
+between weak versus strong AI.
+
+35
+00:01:25.008 --> 00:01:28.002
+Currently, we're in this state of weak AI,
+
+36
+00:01:28.002 --> 00:01:32.007
+which is defined as AI that can only perform specific tasks.
+
+37
+00:01:32.007 --> 00:01:35.001
+So for example, ChatGPT could tell you
+
+38
+00:01:35.001 --> 00:01:37.001
+how to drive a car if you asked it,
+
+39
+00:01:37.001 --> 00:01:39.002
+but if you asked it to drive your car for you,
+
+40
+00:01:39.002 --> 00:01:41.007
+it couldn't do that even though it surfaced
+
+41
+00:01:41.007 --> 00:01:44.004
+all of this knowledge that you'd need to drive a car.
+
+42
+00:01:44.004 --> 00:01:47.005
+Strong AI, or artificial general intelligence,
+
+43
+00:01:47.005 --> 00:01:50.006
+would be able to do that at some point in the future.
+
+44
+00:01:50.006 --> 00:01:53.002
+This is often what's depicted in science fiction
+
+45
+00:01:53.002 --> 00:01:57.001
+and often what is very scary to many folks about this field.
+
+46
+00:01:57.001 --> 00:01:59.002
+These systems would be able to learn
+
+47
+00:01:59.002 --> 00:02:01.007
+and perform any task that a human could do.
+
+48
+00:02:01.007 --> 00:02:03.007
+So if you could ask ChatGPT,
+
+49
+00:02:03.007 --> 00:02:05.008
+"Can you go buy me groceries today?"
+
+50
+00:02:05.008 --> 00:02:09.001
+And it was able to solve all of the problems that it needed
+
+51
+00:02:09.001 --> 00:02:11.009
+to without your intervention, that would be much closer
+
+52
+00:02:11.009 --> 00:02:13.008
+to strong AI than we are today.
+
+53
+00:02:13.008 --> 00:02:16.008
+As of now, we haven't seen any strong AI systems
+
+54
+00:02:16.008 --> 00:02:19.003
+implemented, but this is likely on the horizon
+
+55
+00:02:19.003 --> 00:02:21.006
+and possibly within our lifetimes.
+
+56
+00:02:21.006 --> 00:02:24.002
+And just in case you were wondering, both machine learning
+
+57
+00:02:24.002 --> 00:02:26.008
+and deep learning have their roots in statistics.
+
+58
+00:02:26.008 --> 00:02:29.008
+A lot of the algorithms rely on statistical concepts,
+
+59
+00:02:29.008 --> 00:02:32.001
+but there's one major philosophical
+
+60
+00:02:32.001 --> 00:02:33.008
+difference between these fields.
+
+61
+00:02:33.008 --> 00:02:36.006
+Statistics is very much concerned with being able
+
+62
+00:02:36.006 --> 00:02:39.009
+to confidently say, yes, there is a relationship
+
+63
+00:02:39.009 --> 00:02:44.002
+between variable A and B and that relationship is X.
+
+64
+00:02:44.002 --> 00:02:46.002
+Machine learning and deep learning
+
+65
+00:02:46.002 --> 00:02:48.000
+don't care about those relationships,
+
+66
+00:02:48.000 --> 00:02:51.009
+they just care about the accuracy of output.
+
+67
+00:02:51.009 --> 00:02:53.007
+And because they don't care about these relationships
+
+68
+00:02:53.007 --> 00:02:56.002
+and they certainly don't care about humans understanding
+
+69
+00:02:56.002 --> 00:02:59.008
+these relationships, they're able to be much more complex
+
+70
+00:02:59.008 --> 00:03:01.009
+than the same statistical algorithms
+
+71
+00:03:01.009 --> 00:03:03.003
+that they might be based off of.
+
+72
+00:03:03.003 --> 00:03:05.005
+This has led them to be called black box models
+
+73
+00:03:05.005 --> 00:03:08.008
+because we know what goes in and we know what comes out,
+
+74
+00:03:08.008 --> 00:03:12.001
+but we have no idea what goes on inside these algorithms.
+
+75
+00:03:12.001 --> 00:03:14.005
+They're often picking up millions or billions of nuances
+
+76
+00:03:14.005 --> 00:03:18.003
+and data that we really can't understand or detect.
+
+77
+00:03:18.003 --> 00:03:21.002
+But now let's take a look at generative AI specifically.
