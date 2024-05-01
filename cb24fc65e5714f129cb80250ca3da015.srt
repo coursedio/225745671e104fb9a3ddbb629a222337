@@ -1,0 +1,845 @@
+WEBVTT
+
+1
+00:00:00.001 --> 00:00:01.007
+- [Instructor] All right, let's kick off this section
+
+2
+00:00:01.007 --> 00:00:03.008
+by talking about how we can use AI
+
+3
+00:00:03.008 --> 00:00:05.006
+as our personal Excel tutor.
+
+4
+00:00:05.006 --> 00:00:06.009
+Now we're going to be focusing
+
+5
+00:00:06.009 --> 00:00:10.002
+on two different themes of prompts here in this demo.
+
+6
+00:00:10.002 --> 00:00:14.003
+First is using ChatGPT to better understand general topics
+
+7
+00:00:14.003 --> 00:00:16.006
+or concepts related to Excel.
+
+8
+00:00:16.006 --> 00:00:18.003
+And then we're going to dive deeper
+
+9
+00:00:18.003 --> 00:00:21.005
+into a very common and powerful use case, which is
+
+10
+00:00:21.005 --> 00:00:24.006
+better understanding specific formulas or functions.
+
+11
+00:00:24.006 --> 00:00:28.007
+So starting with general topics or concepts, let's kick it
+
+12
+00:00:28.007 --> 00:00:31.004
+off with something pretty easy and straightforward.
+
+13
+00:00:31.004 --> 00:00:32.007
+Can you please share a list
+
+14
+00:00:32.007 --> 00:00:35.005
+of some of the most common Excel shortcuts?
+
+15
+00:00:35.005 --> 00:00:38.007
+This should be an absolute layup for ChatGPT.
+
+16
+00:00:38.007 --> 00:00:41.001
+This is really common information.
+
+17
+00:00:41.001 --> 00:00:44.003
+There's a lot of public documentation for it to draw from.
+
+18
+00:00:44.003 --> 00:00:45.002
+And as you can see
+
+19
+00:00:45.002 --> 00:00:48.007
+we get a pretty clear response pretty much instantaneously.
+
+20
+00:00:48.007 --> 00:00:51.002
+Here's some of the most common Excel shortcuts
+
+21
+00:00:51.002 --> 00:00:52.006
+that can help you navigate
+
+22
+00:00:52.006 --> 00:00:54.009
+and work more efficiently in Excel.
+
+23
+00:00:54.009 --> 00:00:57.000
+So that's great, but you might be wondering, you know
+
+24
+00:00:57.000 --> 00:00:59.006
+why wouldn't I just google that information?
+
+25
+00:00:59.006 --> 00:01:01.000
+Which is a fair point
+
+26
+00:01:01.000 --> 00:01:03.005
+and this is where that conversational nature
+
+27
+00:01:03.005 --> 00:01:06.006
+of ChatGPT really sets it apart.
+
+28
+00:01:06.006 --> 00:01:09.003
+So now that ChatGPT understands the context
+
+29
+00:01:09.003 --> 00:01:11.007
+of our initial question or prompt,
+
+30
+00:01:11.007 --> 00:01:14.002
+we can follow up with something like this.
+
+31
+00:01:14.002 --> 00:01:17.003
+Can you narrow down this list to shortcuts
+
+32
+00:01:17.003 --> 00:01:20.005
+most commonly used by data analysts, for instance.
+
+33
+00:01:20.005 --> 00:01:23.002
+So it's going to say certainly here are some Excel
+
+34
+00:01:23.002 --> 00:01:25.005
+shortcuts that are commonly used by data analysts.
+
+35
+00:01:25.005 --> 00:01:26.009
+We're going to get a lot
+
+36
+00:01:26.009 --> 00:01:31.001
+of the same ones here, copy, paste, undo and save
+
+37
+00:01:31.001 --> 00:01:32.009
+and it looks like we're getting a few new ones here
+
+38
+00:01:32.009 --> 00:01:35.003
+towards the end that may be a little bit more
+
+39
+00:01:35.003 --> 00:01:37.005
+relevant for analytics, right?
+
+40
+00:01:37.005 --> 00:01:40.002
+We've got the alt shift and control shift shortcuts here.
+
+41
+00:01:40.002 --> 00:01:43.008
+We've got auto sum, the F9 calculation and so on.
+
+42
+00:01:43.008 --> 00:01:46.004
+But we can take it a level deeper, right?
+
+43
+00:01:46.004 --> 00:01:49.002
+And we can follow up again and say, "Okay, now
+
+44
+00:01:49.002 --> 00:01:53.002
+can you include both the PC and MAC versions as a table?"
+
+45
+00:01:53.002 --> 00:01:55.004
+And this is no problem for ChatGPT.
+
+46
+00:01:55.004 --> 00:01:58.002
+I love the format that it comes back with.
+
+47
+00:01:58.002 --> 00:02:01.008
+Super helpful little cheat sheet breaking down each action
+
+48
+00:02:01.008 --> 00:02:04.009
+or shortcut based on the PC and Mac syntax.
+
+49
+00:02:04.009 --> 00:02:07.008
+So this is information that you certainly could get
+
+50
+00:02:07.008 --> 00:02:11.001
+from a tool like Google, but the fact that ChatGPT can kind
+
+51
+00:02:11.001 --> 00:02:14.003
+of consolidate all this information in one place
+
+52
+00:02:14.003 --> 00:02:16.002
+without you having to scrub through different
+
+53
+00:02:16.002 --> 00:02:19.003
+search results, look at different forms or articles
+
+54
+00:02:19.003 --> 00:02:22.001
+or videos that makes it really, really intuitive
+
+55
+00:02:22.001 --> 00:02:25.000
+and really convenient as a research tool.
+
+56
+00:02:25.000 --> 00:02:26.007
+And then one more quick example with kind
+
+57
+00:02:26.007 --> 00:02:30.002
+of this generic topic or concept approach,
+
+58
+00:02:30.002 --> 00:02:31.007
+you might type something like this.
+
+59
+00:02:31.007 --> 00:02:34.005
+Can you please summarize each type of formula error in Excel
+
+60
+00:02:34.005 --> 00:02:35.008
+and how to fix them?
+
+61
+00:02:35.008 --> 00:02:38.000
+I'm actually going to drop this into a new chat
+
+62
+00:02:38.000 --> 00:02:42.001
+because technically this is kind of new unrelated prompts
+
+63
+00:02:42.001 --> 00:02:45.000
+and this shouldn't be a problem for ChatGPT, either.
+
+64
+00:02:45.000 --> 00:02:46.007
+It's going to give us these common errors
+
+65
+00:02:46.007 --> 00:02:48.007
+DIV/0 value ref.
+
+66
+00:02:48.007 --> 00:02:51.000
+And what I love is that it offers
+
+67
+00:02:51.000 --> 00:02:52.006
+potential solutions as well.
+
+68
+00:02:52.006 --> 00:02:54.005
+You can use functions like is number or
+
+69
+00:02:54.005 --> 00:02:57.006
+if error to solve value errors and so on and so forth.
+
+70
+00:02:57.006 --> 00:02:59.007
+So as an Excel beginner or intermediate,
+
+71
+00:02:59.007 --> 00:03:01.009
+having this information
+
+72
+00:03:01.009 --> 00:03:04.003
+at your fingertips is really, really helpful.
+
+73
+00:03:04.003 --> 00:03:07.005
+So next up, let's talk about specific functions, right?
+
+74
+00:03:07.005 --> 00:03:09.003
+This is a super common
+
+75
+00:03:09.003 --> 00:03:12.004
+really powerful use case that I tend to use ChatGPT
+
+76
+00:03:12.004 --> 00:03:13.008
+for quite a bit.
+
+77
+00:03:13.008 --> 00:03:15.009
+And let's start a new prompt here.
+
+78
+00:03:15.009 --> 00:03:17.008
+If you've been around Excel for the past year or two
+
+79
+00:03:17.008 --> 00:03:20.005
+you've probably heard of the X lookup function.
+
+80
+00:03:20.005 --> 00:03:22.001
+So let's start with something like this.
+
+81
+00:03:22.001 --> 00:03:24.006
+Can you please explain how the X lookup function works
+
+82
+00:03:24.006 --> 00:03:26.000
+in Excel?
+
+83
+00:03:26.000 --> 00:03:28.004
+And we'll see what we get back here.
+
+84
+00:03:28.004 --> 00:03:30.007
+So it's a powerful lookup and reference function.
+
+85
+00:03:30.007 --> 00:03:35.006
+It was introduced in Excel 365, Excel 2021 for Windows.
+
+86
+00:03:35.006 --> 00:03:37.007
+Here's kind of a quick summary.
+
+87
+00:03:37.007 --> 00:03:42.000
+I love that it drops in this kind of CSS code box here
+
+88
+00:03:42.000 --> 00:03:44.001
+where we can click to copy that code
+
+89
+00:03:44.001 --> 00:03:47.000
+straight out of the ChatGPT response.
+
+90
+00:03:47.000 --> 00:03:49.002
+And what it does, it starts breaking
+
+91
+00:03:49.002 --> 00:03:52.001
+down the arguments or parameters and what they do.
+
+92
+00:03:52.001 --> 00:03:55.000
+It lays out key features and benefits
+
+93
+00:03:55.000 --> 00:03:56.006
+which is a nice touch.
+
+94
+00:03:56.006 --> 00:03:57.008
+And then I really like how it kind
+
+95
+00:03:57.008 --> 00:04:01.003
+of recaps or summarizes the formula at the end, right?
+
+96
+00:04:01.003 --> 00:04:04.000
+It provides enhanced functionality for performing look-ups.
+
+97
+00:04:04.000 --> 00:04:05.008
+It makes it easier to retrieve data based
+
+98
+00:04:05.008 --> 00:04:07.006
+on specific criteria.
+
+99
+00:04:07.006 --> 00:04:09.001
+But if I'm brand new to Excel
+
+100
+00:04:09.001 --> 00:04:11.004
+or I'm still kind of in the beginner phases
+
+101
+00:04:11.004 --> 00:04:14.002
+this still might be a bit over complicated, right?
+
+102
+00:04:14.002 --> 00:04:15.006
+It kind of sounds
+
+103
+00:04:15.006 --> 00:04:17.008
+like I'm reading official Microsoft documentation here.
+
+104
+00:04:17.008 --> 00:04:20.007
+So let's do a little bit of prompt engineering here
+
+105
+00:04:20.007 --> 00:04:22.007
+and add some follow-ups to really hone in
+
+106
+00:04:22.007 --> 00:04:25.003
+on the type of response we're looking for.
+
+107
+00:04:25.003 --> 00:04:27.009
+So this is a tip that I love to use all the time.
+
+108
+00:04:27.009 --> 00:04:30.003
+I'm going to say now can you explain it
+
+109
+00:04:30.003 --> 00:04:32.002
+as if you were describing it to a child?
+
+110
+00:04:32.002 --> 00:04:35.006
+And note that I'm saying it here, I don't have to explain
+
+111
+00:04:35.006 --> 00:04:38.006
+that I'm looking for the X lookup syntax again
+
+112
+00:04:38.006 --> 00:04:41.004
+because ChatGPT already has that context.
+
+113
+00:04:41.004 --> 00:04:44.008
+And by giving it this kind of role-playing exercise,
+
+114
+00:04:44.008 --> 00:04:48.005
+I can hone in on the specific level of complexity
+
+115
+00:04:48.005 --> 00:04:49.008
+that I'm looking for.
+
+116
+00:04:49.008 --> 00:04:52.008
+So it says, let's explain X lookup in a simpler way
+
+117
+00:04:52.008 --> 00:04:54.002
+for a child to understand.
+
+118
+00:04:54.002 --> 00:04:57.003
+Imagine you have a big list of names, you want to find the age
+
+119
+00:04:57.003 --> 00:04:59.007
+of a specific person without having to look
+
+120
+00:04:59.007 --> 00:05:01.002
+through the entire list.
+
+121
+00:05:01.002 --> 00:05:02.006
+That's where X lookup comes in.
+
+122
+00:05:02.006 --> 00:05:05.000
+So you can see the, the words, the terminology
+
+123
+00:05:05.000 --> 00:05:08.005
+even the tone is really geared towards a younger audience
+
+124
+00:05:08.005 --> 00:05:11.008
+as opposed to an Excel expert or analyst.
+
+125
+00:05:11.008 --> 00:05:14.005
+So it's still accurate if you read through it
+
+126
+00:05:14.005 --> 00:05:17.005
+but it's just a bit more playful than my previous response.
+
+127
+00:05:17.005 --> 00:05:20.009
+And now one more tip here that I absolutely love is
+
+128
+00:05:20.009 --> 00:05:24.004
+using a prompt like this where it can say,
+
+129
+00:05:24.004 --> 00:05:27.002
+"Can you provide an example using some sample data
+
+130
+00:05:27.002 --> 00:05:29.002
+and show the formula syntax?"
+
+131
+00:05:29.002 --> 00:05:32.001
+And this is awesome because ChatGPT is actually
+
+132
+00:05:32.001 --> 00:05:35.000
+going to generate some sample data on the spot.
+
+133
+00:05:35.000 --> 00:05:38.007
+In this case, it came up with a table with names in column A
+
+134
+00:05:38.007 --> 00:05:40.007
+and ages in column B.
+
+135
+00:05:40.007 --> 00:05:43.007
+Very ubiquitous, common and easy to understand.
+
+136
+00:05:43.007 --> 00:05:46.006
+Example, it gives me an example syntax with an X
+
+137
+00:05:46.006 --> 00:05:49.007
+lookup function here, breaks down that formula argument
+
+138
+00:05:49.007 --> 00:05:53.000
+by argument and then again summarizes it here at the bottom.
+
+139
+00:05:53.000 --> 00:05:54.007
+And it's even adding kind of some
+
+140
+00:05:54.007 --> 00:05:56.007
+of the optional arguments here as well
+
+141
+00:05:56.007 --> 00:05:59.009
+to show some variations of the basic syntax.
+
+142
+00:05:59.009 --> 00:06:03.002
+So I'd give it a 10 out of 10 for this response.
+
+143
+00:06:03.002 --> 00:06:05.008
+It's accurate, it's intuitive, and it's really
+
+144
+00:06:05.008 --> 00:06:08.007
+easy to digest even for a beginner Excel user.
+
+145
+00:06:08.007 --> 00:06:11.004
+Now, last quick example that I want to share here
+
+146
+00:06:11.004 --> 00:06:14.005
+is using ChatGPT to explain what a specific
+
+147
+00:06:14.005 --> 00:06:17.004
+Excel formula is actually doing.
+
+148
+00:06:17.004 --> 00:06:18.002
+So in this case
+
+149
+00:06:18.002 --> 00:06:21.000
+suppose we have an Excel worksheet that looks like this.
+
+150
+00:06:21.000 --> 00:06:24.000
+Here we're looking at job salaries for different industries,
+
+151
+00:06:24.000 --> 00:06:25.008
+job titles and cities.
+
+152
+00:06:25.008 --> 00:06:27.007
+We've got the average salary in column D
+
+153
+00:06:27.007 --> 00:06:29.009
+year over year growth in column E.
+
+154
+00:06:29.009 --> 00:06:32.002
+And what we're doing here is producing a subset
+
+155
+00:06:32.002 --> 00:06:35.007
+of that data to show just the top 10 highest paying jobs.
+
+156
+00:06:35.007 --> 00:06:39.003
+And to do that, we're using a formula that looks like this.
+
+157
+00:06:39.003 --> 00:06:42.008
+This is a combination of nested dynamic array functions.
+
+158
+00:06:42.008 --> 00:06:45.007
+It's a little bit long, a little bit complicated,
+
+159
+00:06:45.007 --> 00:06:48.001
+especially if you're not an Excel expert.
+
+160
+00:06:48.001 --> 00:06:49.009
+Now suppose you've inherited this worksheet
+
+161
+00:06:49.009 --> 00:06:52.004
+and you're trying to reverse engineer what's going on here.
+
+162
+00:06:52.004 --> 00:06:54.000
+While in a case like that,
+
+163
+00:06:54.000 --> 00:06:56.009
+you could simply copy the formula straight out of Excel
+
+164
+00:06:56.009 --> 00:06:58.007
+jump back to ChatGPT
+
+165
+00:06:58.007 --> 00:07:03.000
+and add a new prompt that looks something like this.
+
+166
+00:07:03.000 --> 00:07:09.008
+Can you explain this Excel formula in simple terms?
+
+167
+00:07:09.008 --> 00:07:13.007
+I'm going to paste it right here and send it to ChatGPT.
+
+168
+00:07:13.007 --> 00:07:18.000
+And right off the bat, instantaneously it starts breaking
+
+169
+00:07:18.000 --> 00:07:19.006
+down what this function's doing.
+
+170
+00:07:19.006 --> 00:07:22.005
+It's amazing how powerful and fast this tool really is.
+
+171
+00:07:22.005 --> 00:07:25.000
+So it's going to start with the filter function
+
+172
+00:07:25.000 --> 00:07:26.007
+explain what that's doing.
+
+173
+00:07:26.007 --> 00:07:30.000
+It's filtering that range, but only where values
+
+174
+00:07:30.000 --> 00:07:31.003
+in column D are greater
+
+175
+00:07:31.003 --> 00:07:33.008
+than or equal to the 10th largest value.
+
+176
+00:07:33.008 --> 00:07:35.001
+That's correct.
+
+177
+00:07:35.001 --> 00:07:37.007
+Then we talk about how the sort function's working.
+
+178
+00:07:37.007 --> 00:07:39.006
+We lay out the different arguments
+
+179
+00:07:39.006 --> 00:07:41.001
+within that sort function.
+
+180
+00:07:41.001 --> 00:07:43.007
+And then I love this quick recap or summary at the end.
+
+181
+00:07:43.007 --> 00:07:46.005
+So in simple terms, this formula filters the data
+
+182
+00:07:46.005 --> 00:07:48.005
+in the range based on the condition
+
+183
+00:07:48.005 --> 00:07:50.005
+that the values in column D should be greater
+
+184
+00:07:50.005 --> 00:07:52.006
+than or equal to the 10th largest value.
+
+185
+00:07:52.006 --> 00:07:54.004
+Then it sorts that filtered data
+
+186
+00:07:54.004 --> 00:07:57.001
+in descending order based on column D.
+
+187
+00:07:57.001 --> 00:07:59.001
+Great response, perfectly clear
+
+188
+00:07:59.001 --> 00:08:01.000
+and perfectly accurate as well.
+
+189
+00:08:01.000 --> 00:08:02.003
+So to wrap up this demo,
+
+190
+00:08:02.003 --> 00:08:04.000
+let's talk through a couple of tips here.
+
+191
+00:08:04.000 --> 00:08:06.006
+Again, these types of use cases are best when
+
+192
+00:08:06.006 --> 00:08:09.005
+you're asking questions that have clear definitions
+
+193
+00:08:09.005 --> 00:08:12.003
+and a lot of public documentation to draw from.
+
+194
+00:08:12.003 --> 00:08:14.005
+And it's really important to be smart
+
+195
+00:08:14.005 --> 00:08:16.004
+about your prompt engineering.
+
+196
+00:08:16.004 --> 00:08:19.000
+So we talked about things like asking for visuals
+
+197
+00:08:19.000 --> 00:08:21.006
+asking for sample data, for syntax
+
+198
+00:08:21.006 --> 00:08:23.008
+for common use cases, and so on.
+
+199
+00:08:23.008 --> 00:08:25.008
+That's going to be really helpful to get the results
+
+200
+00:08:25.008 --> 00:08:26.007
+that you want.
+
+201
+00:08:26.007 --> 00:08:29.001
+And then again, I love role-playing a little bit
+
+202
+00:08:29.001 --> 00:08:32.003
+with the prompts to help modify and tune the level
+
+203
+00:08:32.003 --> 00:08:34.005
+of complexity that you're looking for.
+
+204
+00:08:34.005 --> 00:08:37.001
+Do you want the language to be appropriate
+
+205
+00:08:37.001 --> 00:08:39.001
+for a 10 year old or for a rocket scientist?
+
+206
+00:08:39.001 --> 00:08:42.004
+Now, overall, I love this application for ChatGPT,
+
+207
+00:08:42.004 --> 00:08:44.007
+I give it very, very high marks
+
+208
+00:08:44.007 --> 00:08:47.002
+for accuracy for these types of use cases.
+
+209
+00:08:47.002 --> 00:08:49.004
+And it's really just a great way to fill knowledge gaps
+
+210
+00:08:49.004 --> 00:08:53.000
+and learn about new Excel topics really quickly
+
+211
+00:08:53.000 --> 00:08:54.002
+and really effectively.
