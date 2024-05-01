@@ -1,0 +1,741 @@
+WEBVTT
+
+1
+00:00:00.002 --> 00:00:01.000
+- [Instructor] All right, next up,
+
+2
+00:00:01.000 --> 00:00:02.004
+I've got a really fun demo for you.
+
+3
+00:00:02.004 --> 00:00:04.000
+We're going to talk about how to use AI
+
+4
+00:00:04.000 --> 00:00:06.009
+to actually generate new Excel formulas based
+
+5
+00:00:06.009 --> 00:00:09.002
+on descriptions that you provide.
+
+6
+00:00:09.002 --> 00:00:10.000
+So in this case
+
+7
+00:00:10.000 --> 00:00:12.001
+we're going to use some sample data here in Excel.
+
+8
+00:00:12.001 --> 00:00:14.005
+As you can see, we've got a grocery list
+
+9
+00:00:14.005 --> 00:00:18.005
+with items that live in cells B4 through B50
+
+10
+00:00:18.005 --> 00:00:21.004
+and our goal is to come up with two different calculations.
+
+11
+00:00:21.004 --> 00:00:23.007
+The first calculating the total number of items
+
+12
+00:00:23.007 --> 00:00:27.000
+in the list, and the second, slightly more complicated,
+
+13
+00:00:27.000 --> 00:00:29.009
+calculating the number of unique items only.
+
+14
+00:00:29.009 --> 00:00:31.001
+Now our goal is to see
+
+15
+00:00:31.001 --> 00:00:34.000
+if ChatGPT can produce the exact formulas
+
+16
+00:00:34.000 --> 00:00:36.009
+that we need to generate these two values.
+
+17
+00:00:36.009 --> 00:00:38.003
+Let's give it a shot.
+
+18
+00:00:38.003 --> 00:00:40.003
+So let's start with the count calculation.
+
+19
+00:00:40.003 --> 00:00:41.008
+And even though it's quite simple,
+
+20
+00:00:41.008 --> 00:00:45.003
+I still want to be specific and deliberate with my prompt.
+
+21
+00:00:45.003 --> 00:00:46.004
+So as you can see here,
+
+22
+00:00:46.004 --> 00:00:48.009
+I'm going to try to set some context right upfront
+
+23
+00:00:48.009 --> 00:00:52.000
+and say I'm managing a grocery list in Excel.
+
+24
+00:00:52.000 --> 00:00:53.009
+Can you please write a formula to count the number
+
+25
+00:00:53.009 --> 00:00:56.009
+of items in cells B4 through B50?
+
+26
+00:00:56.009 --> 00:00:59.007
+And by specifying the exact cell range here,
+
+27
+00:00:59.007 --> 00:01:02.005
+that's going to maximize the chances that I get a valid
+
+28
+00:01:02.005 --> 00:01:05.001
+and accurate formula in return.
+
+29
+00:01:05.001 --> 00:01:07.007
+So let's go ahead and give this one a shot.
+
+30
+00:01:07.007 --> 00:01:10.001
+It's going to say certainly to count the number of items
+
+31
+00:01:10.001 --> 00:01:13.005
+in B4 through B50, you can use the COUNTA function.
+
+32
+00:01:13.005 --> 00:01:16.009
+Here's the formula, go ahead and copy it straight
+
+33
+00:01:16.009 --> 00:01:20.004
+from the output here, drop it into Excel
+
+34
+00:01:20.004 --> 00:01:22.003
+and let's go ahead to E4.
+
+35
+00:01:22.003 --> 00:01:24.003
+Paste it straight from ChatGPT
+
+36
+00:01:24.003 --> 00:01:28.003
+into the formula bar, and boom, we got a 47.
+
+37
+00:01:28.003 --> 00:01:30.000
+So we can validate that number
+
+38
+00:01:30.000 --> 00:01:32.004
+by selecting the items in our list.
+
+39
+00:01:32.004 --> 00:01:35.004
+And right here in the footer, we can see the count is 47.
+
+40
+00:01:35.004 --> 00:01:37.003
+So off to a good start.
+
+41
+00:01:37.003 --> 00:01:38.002
+Now let's see
+
+42
+00:01:38.002 --> 00:01:40.007
+if it can handle something a little bit more complicated
+
+43
+00:01:40.007 --> 00:01:43.000
+and just give us the count of uniques.
+
+44
+00:01:43.000 --> 00:01:46.002
+Now before I jump back into ChatGPT, I want to talk
+
+45
+00:01:46.002 --> 00:01:47.005
+about a couple different ways
+
+46
+00:01:47.005 --> 00:01:50.004
+that I would solve this problem independently.
+
+47
+00:01:50.004 --> 00:01:52.003
+And then we can compare against the output
+
+48
+00:01:52.003 --> 00:01:54.001
+that ChatGPT provides.
+
+49
+00:01:54.001 --> 00:01:56.005
+So a couple different ways we could tackle this.
+
+50
+00:01:56.005 --> 00:01:59.005
+We could take the brute force approach
+
+51
+00:01:59.005 --> 00:02:01.006
+and then remove duplicates.
+
+52
+00:02:01.006 --> 00:02:05.003
+That's going to tell us there are 42 unique values remaining.
+
+53
+00:02:05.003 --> 00:02:08.004
+Or the approach that I typically prefer is using something
+
+54
+00:02:08.004 --> 00:02:12.004
+like COUNTA and UNIQUE and feeding it
+
+55
+00:02:12.004 --> 00:02:15.007
+that exact same range, B4 through B50.
+
+56
+00:02:15.007 --> 00:02:17.005
+I prefer this dynamic array approach.
+
+57
+00:02:17.005 --> 00:02:20.001
+It's going to give us that same answer of 42.
+
+58
+00:02:20.001 --> 00:02:23.001
+So we know the value or the output that we need.
+
+59
+00:02:23.001 --> 00:02:26.001
+Now let's see if ChatGPT can get the job done.
+
+60
+00:02:26.001 --> 00:02:28.009
+Now, important note here, I'm not going to create a new chat
+
+61
+00:02:28.009 --> 00:02:31.005
+because I want to maintain the context
+
+62
+00:02:31.005 --> 00:02:34.004
+and kind of treat this as an ongoing conversation.
+
+63
+00:02:34.004 --> 00:02:37.006
+What that means is that I can add a prompt like this.
+
+64
+00:02:37.006 --> 00:02:38.004
+Thanks.
+
+65
+00:02:38.004 --> 00:02:40.000
+Now can you write a formula to count the number
+
+66
+00:02:40.000 --> 00:02:42.006
+of unique items in that list?
+
+67
+00:02:42.006 --> 00:02:45.008
+And I can use natural language like that list
+
+68
+00:02:45.008 --> 00:02:48.002
+because ChatGPT has the context.
+
+69
+00:02:48.002 --> 00:02:51.009
+It understands that the list I'm referring to is B4
+
+70
+00:02:51.009 --> 00:02:54.005
+through B50 from my original prompt.
+
+71
+00:02:54.005 --> 00:02:56.002
+So let's go ahead and enter that.
+
+72
+00:02:56.002 --> 00:02:58.006
+See what we get back.
+
+73
+00:02:58.006 --> 00:03:00.006
+Says okay, you can use a combination of COUNT
+
+74
+00:03:00.006 --> 00:03:01.008
+and COUNTIF.
+
+75
+00:03:01.008 --> 00:03:03.003
+Actually this formula is a combination
+
+76
+00:03:03.003 --> 00:03:05.007
+of SUM and COUNTIF, but that's okay.
+
+77
+00:03:05.007 --> 00:03:07.000
+Definitely a different approach
+
+78
+00:03:07.000 --> 00:03:09.009
+than the dynamic array formula that we used.
+
+79
+00:03:09.009 --> 00:03:11.002
+But let's go ahead and copy that
+
+80
+00:03:11.002 --> 00:03:13.003
+and see if it does the trick.
+
+81
+00:03:13.003 --> 00:03:15.003
+So here we go and cell E6.
+
+82
+00:03:15.003 --> 00:03:18.001
+We're going to paste the output right into the formula bar,
+
+83
+00:03:18.001 --> 00:03:20.002
+press Enter, and we get 42,
+
+84
+00:03:20.002 --> 00:03:22.002
+which is exactly what we're looking for.
+
+85
+00:03:22.002 --> 00:03:25.002
+Now the only catch here is that this SUM
+
+86
+00:03:25.002 --> 00:03:28.002
+and COUNTIF approach is a little bit complicated.
+
+87
+00:03:28.002 --> 00:03:30.009
+We're actually calculating these reciprocal values
+
+88
+00:03:30.009 --> 00:03:33.004
+row by row, and then we're summing it all together.
+
+89
+00:03:33.004 --> 00:03:35.004
+It's a little bit tricky to wrap your head around
+
+90
+00:03:35.004 --> 00:03:38.004
+if you're not an expert Excel user and it's even harder
+
+91
+00:03:38.004 --> 00:03:40.007
+to communicate exactly what's happening here.
+
+92
+00:03:40.007 --> 00:03:43.007
+So let's see if we can kind of nudge ChatGPT
+
+93
+00:03:43.007 --> 00:03:46.007
+to use the dynamic array approach instead.
+
+94
+00:03:46.007 --> 00:03:48.006
+So we could say something like,
+
+95
+00:03:48.006 --> 00:03:52.002
+can you provide an example using a dynamic array formula
+
+96
+00:03:52.002 --> 00:03:54.003
+and see what we get back.
+
+97
+00:03:54.003 --> 00:03:56.001
+It's going to say, certainly.
+
+98
+00:03:56.001 --> 00:03:59.001
+You can use UNIQUE and COUNTA and check it out.
+
+99
+00:03:59.001 --> 00:04:00.005
+That's the exact result
+
+100
+00:04:00.005 --> 00:04:02.003
+that I had showed you earlier in the demo.
+
+101
+00:04:02.003 --> 00:04:06.000
+And we know that's going to produce the correct output of 42.
+
+102
+00:04:06.000 --> 00:04:07.009
+But this is a good point to pause
+
+103
+00:04:07.009 --> 00:04:09.008
+and remind yourself that you're going to get
+
+104
+00:04:09.008 --> 00:04:12.000
+potentially different responses
+
+105
+00:04:12.000 --> 00:04:13.008
+every time you enter a new prompt
+
+106
+00:04:13.008 --> 00:04:16.000
+even if the prompt is identical.
+
+107
+00:04:16.000 --> 00:04:20.001
+So I want to try a test here and copy this prompt,
+
+108
+00:04:20.001 --> 00:04:25.004
+paste it word for word one more time and see what we get.
+
+109
+00:04:25.004 --> 00:04:26.004
+So check this out.
+
+110
+00:04:26.004 --> 00:04:29.004
+At first glance, it looks like we got the exact same result,
+
+111
+00:04:29.004 --> 00:04:30.008
+but in fact we didn't.
+
+112
+00:04:30.008 --> 00:04:34.001
+The first time we got a COUNTA and UNIQUE formula.
+
+113
+00:04:34.001 --> 00:04:37.002
+The second time we got a COUNT and UNIQUE formula.
+
+114
+00:04:37.002 --> 00:04:40.003
+And the risk is that if we copy this COUNT version
+
+115
+00:04:40.003 --> 00:04:44.001
+and overwrite the original formula that we had in Excel,
+
+116
+00:04:44.001 --> 00:04:46.001
+you can see we're going to get a zero back
+
+117
+00:04:46.001 --> 00:04:48.003
+which is obviously incorrect.
+
+118
+00:04:48.003 --> 00:04:51.002
+Now because I'm a relatively advanced Excel user,
+
+119
+00:04:51.002 --> 00:04:53.005
+I've got a deep foundational skillset.
+
+120
+00:04:53.005 --> 00:04:55.006
+I know why this is incorrect,
+
+121
+00:04:55.006 --> 00:04:58.000
+and it's because the COUNT function is designed
+
+122
+00:04:58.000 --> 00:05:00.000
+to count numerical values
+
+123
+00:05:00.000 --> 00:05:03.007
+and the COUNTA function is designed to count text.
+
+124
+00:05:03.007 --> 00:05:07.001
+So by simply changing the formula from COUNT to COUNTA,
+
+125
+00:05:07.001 --> 00:05:09.008
+I get the accurate results of 42.
+
+126
+00:05:09.008 --> 00:05:12.000
+But this brings up some important points.
+
+127
+00:05:12.000 --> 00:05:15.005
+It's a great reminder why it's so critical to write specific
+
+128
+00:05:15.005 --> 00:05:18.006
+and accurate prompts and why it's still so important
+
+129
+00:05:18.006 --> 00:05:20.008
+to have that fundamental understanding
+
+130
+00:05:20.008 --> 00:05:22.005
+of what's going on rather
+
+131
+00:05:22.005 --> 00:05:25.004
+than blindly copying and pasting the outputs.
+
+132
+00:05:25.004 --> 00:05:27.003
+So let's jump back into ChatGPT
+
+133
+00:05:27.003 --> 00:05:29.003
+and see if we can rewrite the prompt
+
+134
+00:05:29.003 --> 00:05:32.007
+to try to avoid these issues right out of the gate.
+
+135
+00:05:32.007 --> 00:05:34.004
+So knowing what we know now,
+
+136
+00:05:34.004 --> 00:05:36.003
+we could try a prompt that looks like this.
+
+137
+00:05:36.003 --> 00:05:38.009
+Can you please write a dynamic array Excel formula
+
+138
+00:05:38.009 --> 00:05:41.006
+to count the number of unique text values
+
+139
+00:05:41.006 --> 00:05:44.005
+in cells B4 through B50?
+
+140
+00:05:44.005 --> 00:05:46.007
+And hopefully that gets straight
+
+141
+00:05:46.007 --> 00:05:49.009
+to the dynamic array solution, which it looks like it does.
+
+142
+00:05:49.009 --> 00:05:52.005
+It's using COUNTA, it's using UNIQUE,
+
+143
+00:05:52.005 --> 00:05:53.004
+and in fact, in this case,
+
+144
+00:05:53.004 --> 00:05:55.003
+it's actually adding a filter argument
+
+145
+00:05:55.003 --> 00:05:57.004
+which isn't entirely necessary
+
+146
+00:05:57.004 --> 00:05:59.004
+but it certainly couldn't hurt here.
+
+147
+00:05:59.004 --> 00:06:00.007
+So again, good reminder
+
+148
+00:06:00.007 --> 00:06:03.002
+of why prompt engineering is so important.
+
+149
+00:06:03.002 --> 00:06:04.006
+And then last thing I want to do here
+
+150
+00:06:04.006 --> 00:06:06.007
+is take that exact prompt I just wrote
+
+151
+00:06:06.007 --> 00:06:11.004
+and test this in Bard to compare and contrast the outputs.
+
+152
+00:06:11.004 --> 00:06:13.006
+Alright, so here we are in Google Bard.
+
+153
+00:06:13.006 --> 00:06:16.001
+I'm going to paste that exact same prompt
+
+154
+00:06:16.001 --> 00:06:18.005
+and see what we get in this case.
+
+155
+00:06:18.005 --> 00:06:20.006
+So it's going to think for a bit
+
+156
+00:06:20.006 --> 00:06:22.001
+and then come back and say, sure,
+
+157
+00:06:22.001 --> 00:06:24.009
+here's the dynamic array Excel formula to count the number
+
+158
+00:06:24.009 --> 00:06:26.004
+of unique text values.
+
+159
+00:06:26.004 --> 00:06:27.009
+It gives me this code snippet
+
+160
+00:06:27.009 --> 00:06:31.004
+which as you can probably tell, is just incorrect.
+
+161
+00:06:31.004 --> 00:06:33.004
+It's not even the right syntax.
+
+162
+00:06:33.004 --> 00:06:36.009
+And for good measure, we can try plugging it into Excel.
+
+163
+00:06:36.009 --> 00:06:40.008
+And as you might expect, we get an error
+
+164
+00:06:40.008 --> 00:06:44.006
+because this is not correct Excel formula syntax.
+
+165
+00:06:44.006 --> 00:06:47.003
+So again, that's why I tend to prefer ChatGPT
+
+166
+00:06:47.003 --> 00:06:49.004
+for Excel specific prompts.
+
+167
+00:06:49.004 --> 00:06:50.006
+So again, you've got to really,
+
+168
+00:06:50.006 --> 00:06:53.008
+really be careful when you're working with these AI tools.
+
+169
+00:06:53.008 --> 00:06:56.001
+So to wrap it up with a few tips, again,
+
+170
+00:06:56.001 --> 00:06:58.007
+be as specific as possible in your prompts.
+
+171
+00:06:58.007 --> 00:07:02.000
+Make sure you include cell references, important context,
+
+172
+00:07:02.000 --> 00:07:04.003
+that's going to help you generate accurate formulas.
+
+173
+00:07:04.003 --> 00:07:07.004
+And then most importantly, I can't stress this enough,
+
+174
+00:07:07.004 --> 00:07:11.000
+always validate the results and do a thorough QA.
+
+175
+00:07:11.000 --> 00:07:14.001
+ChatGPT isn't always right, and that's why it's critical
+
+176
+00:07:14.001 --> 00:07:16.006
+to build a strong foundational skillset
+
+177
+00:07:16.006 --> 00:07:20.003
+with these tools like Excel and SQL and Power BI and so on
+
+178
+00:07:20.003 --> 00:07:24.007
+and use these AI tools as a supplement rather than a crutch.
+
+179
+00:07:24.007 --> 00:07:27.009
+So overall, I think there's a ton of potential value
+
+180
+00:07:27.009 --> 00:07:30.007
+in using ChatGPT for these types of cases.
+
+181
+00:07:30.007 --> 00:07:33.007
+But as we've shown here, it can be very dangerous
+
+182
+00:07:33.007 --> 00:07:37.000
+if you lack that foundational skillset or understanding
+
+183
+00:07:37.000 --> 00:07:39.003
+or if you fail to provide clear prompts
+
+184
+00:07:39.003 --> 00:07:42.001
+or take the time to test and validate the outputs.
+
+185
+00:07:42.001 --> 00:07:45.008
+So very powerful tool, but make sure to use it with caution.
