@@ -1,0 +1,985 @@
+WEBVTT
+
+1
+00:00:00.004 --> 00:00:02.002
+- [Instructor] Alright, so for this next demo,
+
+2
+00:00:02.002 --> 00:00:05.004
+what I want to do is see if we can use ChatGPT
+
+3
+00:00:05.004 --> 00:00:09.008
+to generate clear step-by-step instructions or guidelines
+
+4
+00:00:09.008 --> 00:00:13.005
+for conducting some sort of analysis in Excel.
+
+5
+00:00:13.005 --> 00:00:15.004
+I'm going to walk through two examples here,
+
+6
+00:00:15.004 --> 00:00:17.009
+starting relatively simple with a basic PivotTable,
+
+7
+00:00:17.009 --> 00:00:20.004
+and then we're going to try something a bit more advanced
+
+8
+00:00:20.004 --> 00:00:24.000
+by creating a relational data model using Power Pivot.
+
+9
+00:00:24.000 --> 00:00:26.008
+And what I want to see is if ChatGPT
+
+10
+00:00:26.008 --> 00:00:28.008
+can guide us through this process
+
+11
+00:00:28.008 --> 00:00:30.008
+as if we were a beginner user
+
+12
+00:00:30.008 --> 00:00:33.003
+without much familiarity with these tools.
+
+13
+00:00:33.003 --> 00:00:36.003
+So for the first demo, what we've got here
+
+14
+00:00:36.003 --> 00:00:38.007
+is a basic sample of product orders.
+
+15
+00:00:38.007 --> 00:00:42.005
+Got order IDs in column A, product names in B,
+
+16
+00:00:42.005 --> 00:00:45.001
+quantity, price, revenue,
+
+17
+00:00:45.001 --> 00:00:47.008
+and a categorical field called Order Size,
+
+18
+00:00:47.008 --> 00:00:49.004
+which is based on the quantity purchased.
+
+19
+00:00:49.004 --> 00:00:52.006
+Now, suppose we wanted to calculate the average revenue
+
+20
+00:00:52.006 --> 00:00:55.002
+for each order size specifically.
+
+21
+00:00:55.002 --> 00:00:58.005
+This is something that's very easy to do with a PivotTable.
+
+22
+00:00:58.005 --> 00:01:01.008
+Let's see if ChatGPT can walk us through the process.
+
+23
+00:01:01.008 --> 00:01:04.006
+So what I'm actually going to do is copy
+
+24
+00:01:04.006 --> 00:01:06.001
+a little sample of the data here,
+
+25
+00:01:06.001 --> 00:01:07.008
+and now let's jump into ChatGPT.
+
+26
+00:01:07.008 --> 00:01:10.003
+Let's go ahead and paste that sample here,
+
+27
+00:01:10.003 --> 00:01:12.006
+and I'm going to shift down,
+
+28
+00:01:12.006 --> 00:01:15.008
+and add the rest of my prompt like so.
+
+29
+00:01:15.008 --> 00:01:18.007
+All right, so we're saying I have an Excel table
+
+30
+00:01:18.007 --> 00:01:20.005
+containing the following fields
+
+31
+00:01:20.005 --> 00:01:21.004
+from the table we just looked at.
+
+32
+00:01:21.004 --> 00:01:23.007
+I need to create a PivotTable
+
+33
+00:01:23.007 --> 00:01:25.009
+showing the average revenue for each order size
+
+34
+00:01:25.009 --> 00:01:28.006
+formatted as currency, USD.
+
+35
+00:01:28.006 --> 00:01:30.004
+And then we're saying,
+
+36
+00:01:30.004 --> 00:01:33.001
+please provide clear step-by-step instructions
+
+37
+00:01:33.001 --> 00:01:36.006
+for creating the PivotTable using Excel for Office 365,
+
+38
+00:01:36.006 --> 00:01:39.002
+and here's a sample of the first,
+
+39
+00:01:39.002 --> 00:01:43.000
+in this case, I think it was 15 rows of data.
+
+40
+00:01:43.000 --> 00:01:47.007
+Let's see how ChatGPT does with this one.
+
+41
+00:01:47.007 --> 00:01:51.001
+All right, looking good so far.
+
+42
+00:01:51.001 --> 00:01:52.006
+So to create a PivotTable
+
+43
+00:01:52.006 --> 00:01:54.003
+showing the average revenue for each order size
+
+44
+00:01:54.003 --> 00:01:56.007
+in Excel for Office 365,
+
+45
+00:01:56.007 --> 00:02:00.000
+follow these step-by-step instructions.
+
+46
+00:02:00.000 --> 00:02:02.008
+Now, let's see if we can pull these instructions up
+
+47
+00:02:02.008 --> 00:02:04.007
+side by side with our Excel file,
+
+48
+00:02:04.007 --> 00:02:06.006
+and see if we can walk through them step by step.
+
+49
+00:02:06.006 --> 00:02:08.007
+All right, so here we go,
+
+50
+00:02:08.007 --> 00:02:10.003
+we've got our instructions on the right from ChatGPT,
+
+51
+00:02:10.003 --> 00:02:12.004
+we've got our Excel sheet on the left.
+
+52
+00:02:12.004 --> 00:02:14.006
+So open our Excel file, done.
+
+53
+00:02:14.006 --> 00:02:17.004
+Select the range of cells that includes the data,
+
+54
+00:02:17.004 --> 00:02:19.004
+including headers.
+
+55
+00:02:19.004 --> 00:02:20.007
+Control A, there we go.
+
+56
+00:02:20.007 --> 00:02:22.004
+Go to the Insert tab, boom,
+
+57
+00:02:22.004 --> 00:02:24.006
+click on the PivotTable button, which is right here.
+
+58
+00:02:24.006 --> 00:02:27.001
+That opens the create PivotTable dialog box.
+
+59
+00:02:27.001 --> 00:02:30.001
+Ensure the range is correct, that looks good,
+
+60
+00:02:30.001 --> 00:02:31.009
+A1 through F101.
+
+61
+00:02:31.009 --> 00:02:34.005
+Let's place this on the existing worksheet,
+
+62
+00:02:34.005 --> 00:02:37.006
+kind of right over here in H2.
+
+63
+00:02:37.006 --> 00:02:40.008
+Step seven, click OK to create the PivotTable, there we go.
+
+64
+00:02:40.008 --> 00:02:42.004
+Now the PivotTable field list
+
+65
+00:02:42.004 --> 00:02:44.007
+will appear on the right side, it did.
+
+66
+00:02:44.007 --> 00:02:49.002
+From the field list, locate order size, drag it into rows.
+
+67
+00:02:49.002 --> 00:02:51.003
+Easy enough.
+
+68
+00:02:51.003 --> 00:02:53.006
+Locate Revenue, drag it into Values.
+
+69
+00:02:53.006 --> 00:02:56.008
+By default, it should already be set to Sum of Revenue.
+
+70
+00:02:56.008 --> 00:03:00.006
+It is, but now we need to change the summary to average.
+
+71
+00:03:00.006 --> 00:03:03.000
+So we're going to click that dropdown arrow,
+
+72
+00:03:03.000 --> 00:03:07.001
+select Value Field Settings, and select Average.
+
+73
+00:03:07.001 --> 00:03:09.009
+From here, press OK.
+
+74
+00:03:09.009 --> 00:03:13.000
+And let's see how this is starting to look.
+
+75
+00:03:13.000 --> 00:03:14.009
+I'm going to scroll over here.
+
+76
+00:03:14.009 --> 00:03:17.006
+There we go, we've got our order sizes listed out.
+
+77
+00:03:17.006 --> 00:03:21.000
+We've got our average revenues by order size and our values.
+
+78
+00:03:21.000 --> 00:03:24.002
+We've gone through the first 13 steps without any issue.
+
+79
+00:03:24.002 --> 00:03:26.002
+So now I think the last step
+
+80
+00:03:26.002 --> 00:03:27.006
+was just to format those as currency.
+
+81
+00:03:27.006 --> 00:03:32.001
+So we're going to right click any value in the values area,
+
+82
+00:03:32.001 --> 00:03:34.002
+choose Value Field Settings, then Number Format,
+
+83
+00:03:34.002 --> 00:03:36.004
+or we could skip a click
+
+84
+00:03:36.004 --> 00:03:37.005
+and just go straight to Number Format,
+
+85
+00:03:37.005 --> 00:03:40.003
+select Currency from the category list,
+
+86
+00:03:40.003 --> 00:03:43.002
+choose USD, which is the dollar sign,
+
+87
+00:03:43.002 --> 00:03:45.009
+select the number of decimal places, which is two,
+
+88
+00:03:45.009 --> 00:03:47.006
+and then click OK.
+
+89
+00:03:47.006 --> 00:03:49.007
+So that's step 19,
+
+90
+00:03:49.007 --> 00:03:52.005
+click OK to apply the currency formatting to the PivotTable.
+
+91
+00:03:52.005 --> 00:03:55.006
+We've got average revenue of $162 for large orders,
+
+92
+00:03:55.006 --> 00:04:00.005
+41 for medium, and 8.49 for small, which sounds about right.
+
+93
+00:04:00.005 --> 00:04:02.006
+And there we go.
+
+94
+00:04:02.006 --> 00:04:04.002
+It says you should now have a PivotTable
+
+95
+00:04:04.002 --> 00:04:06.004
+showing the average revenue for each order size
+
+96
+00:04:06.004 --> 00:04:07.006
+formatted as currency.
+
+97
+00:04:07.006 --> 00:04:10.000
+I like the caveat here, but in this case,
+
+98
+00:04:10.000 --> 00:04:13.005
+that actually worked perfectly without a hitch.
+
+99
+00:04:13.005 --> 00:04:15.007
+That's exactly how I would approach it as an expert.
+
+100
+00:04:15.007 --> 00:04:18.009
+Great, clear step-by-step instructions.
+
+101
+00:04:18.009 --> 00:04:20.008
+Now let's push it a little bit further
+
+102
+00:04:20.008 --> 00:04:24.005
+and see if ChatGPT can effectively give us some guidelines
+
+103
+00:04:24.005 --> 00:04:26.005
+for something a bit more complicated,
+
+104
+00:04:26.005 --> 00:04:29.008
+like creating a relational data model.
+
+105
+00:04:29.008 --> 00:04:31.006
+So for this example, I have a new workbook,
+
+106
+00:04:31.006 --> 00:04:33.008
+it's called Data Model.
+
+107
+00:04:33.008 --> 00:04:35.006
+And in that workbook, I have four different tabs.
+
+108
+00:04:35.006 --> 00:04:38.000
+Each tab contains a table.
+
+109
+00:04:38.000 --> 00:04:41.009
+This table contains transactions, with a transaction date,
+
+110
+00:04:41.009 --> 00:04:44.007
+product ID, customer ID, and quantity.
+
+111
+00:04:44.007 --> 00:04:48.004
+Then I have a calendar table, I have a product table,
+
+112
+00:04:48.004 --> 00:04:51.006
+and I have a customer table as well.
+
+113
+00:04:51.006 --> 00:04:53.009
+And each of those tables has a primary key,
+
+114
+00:04:53.009 --> 00:04:56.006
+in this case, customer ID.
+
+115
+00:04:56.006 --> 00:04:58.001
+For products, we have product ID
+
+116
+00:04:58.001 --> 00:05:00.000
+to relate these tables back to our transactions
+
+117
+00:05:00.000 --> 00:05:04.001
+and analyze all this information together using Power Pivot.
+
+118
+00:05:04.001 --> 00:05:06.006
+So for this example, what I'm actually going to do
+
+119
+00:05:06.006 --> 00:05:10.008
+is show you how I would approach this first as an expert,
+
+120
+00:05:10.008 --> 00:05:14.000
+and then I'm going to provide a prompt to ChatGPT,
+
+121
+00:05:14.000 --> 00:05:15.005
+and then compare my approach
+
+122
+00:05:15.005 --> 00:05:19.003
+to how ChatGPT recommends tackling this type of task.
+
+123
+00:05:19.003 --> 00:05:21.004
+So here's how I would approach it.
+
+124
+00:05:21.004 --> 00:05:23.009
+I would go through each of these four tables,
+
+125
+00:05:23.009 --> 00:05:26.002
+I would open up the Power Pivot tab,
+
+126
+00:05:26.002 --> 00:05:30.006
+and I would add each table to the data model like so.
+
+127
+00:05:30.006 --> 00:05:31.008
+So I'm starting with transactions.
+
+128
+00:05:31.008 --> 00:05:35.003
+I'm going to go back to calendar, Add to Data Model,
+
+129
+00:05:35.003 --> 00:05:37.005
+see, it adds a second tab there,
+
+130
+00:05:37.005 --> 00:05:41.006
+go to products, Add to Data Model,
+
+131
+00:05:41.006 --> 00:05:45.009
+and then you guessed it, same story for customers,
+
+132
+00:05:45.009 --> 00:05:47.009
+Add to Data Model.
+
+133
+00:05:47.009 --> 00:05:51.006
+So now I've effectively loaded all four of those tables
+
+134
+00:05:51.006 --> 00:05:53.007
+into Excel's data model.
+
+135
+00:05:53.007 --> 00:05:54.008
+Didn't have to go through Power Query,
+
+136
+00:05:54.008 --> 00:05:57.009
+didn't have to do any table imports or anything fancy.
+
+137
+00:05:57.009 --> 00:06:00.009
+Simply one click from that Power Pivot menu,
+
+138
+00:06:00.009 --> 00:06:02.008
+and all my data's in here.
+
+139
+00:06:02.008 --> 00:06:05.009
+Now, really all I need to do is jump into Diagram View
+
+140
+00:06:05.009 --> 00:06:08.007
+where I can see all four of those tables,
+
+141
+00:06:08.007 --> 00:06:11.000
+and I can create those relationships
+
+142
+00:06:11.000 --> 00:06:14.004
+by mapping the primary keys in my lookup tables
+
+143
+00:06:14.004 --> 00:06:17.009
+to my foreign keys in my data or fact table.
+
+144
+00:06:17.009 --> 00:06:21.009
+And that's it, now I've got my properly related data model
+
+145
+00:06:21.009 --> 00:06:23.002
+here in Power Pivot.
+
+146
+00:06:23.002 --> 00:06:25.004
+I could add a PivotTable
+
+147
+00:06:25.004 --> 00:06:27.000
+to start analyzing or exploring that data,
+
+148
+00:06:27.000 --> 00:06:29.001
+but really, it was as simple as that.
+
+149
+00:06:29.001 --> 00:06:32.004
+So now that we've seen my approach, let's take a look at
+
+150
+00:06:32.004 --> 00:06:36.003
+how ChatGPT recommends approaching this.
+
+151
+00:06:36.003 --> 00:06:38.003
+So why don't we do a new prompt here.
+
+152
+00:06:38.003 --> 00:06:41.001
+I'm going to try to be as clear and descriptive
+
+153
+00:06:41.001 --> 00:06:44.000
+as I possibly can with this prompt.
+
+154
+00:06:44.000 --> 00:06:47.000
+So notice I've already kind of precopied samples
+
+155
+00:06:47.000 --> 00:06:49.002
+from each of the four tables
+
+156
+00:06:49.002 --> 00:06:50.008
+in that workbook we walked through.
+
+157
+00:06:50.008 --> 00:06:52.008
+But I'm basically telling ChatGPT,
+
+158
+00:06:52.008 --> 00:06:55.006
+I've got this Excel workbook, it's called Data Model.
+
+159
+00:06:55.006 --> 00:06:57.001
+It contains the following tables,
+
+160
+00:06:57.001 --> 00:06:58.009
+transactions, calendar, products, and customers.
+
+161
+00:06:58.009 --> 00:07:02.000
+I've included sample data from each table below.
+
+162
+00:07:02.000 --> 00:07:05.002
+This is a sample from transactions, from calendar,
+
+163
+00:07:05.002 --> 00:07:07.009
+from products, and from customers.
+
+164
+00:07:07.009 --> 00:07:11.004
+The reason I'm doing this is to make sure that ChatGPT
+
+165
+00:07:11.004 --> 00:07:14.000
+can see the primary and foreign keys,
+
+166
+00:07:14.000 --> 00:07:17.002
+and recommend meaningful table relationships here.
+
+167
+00:07:17.002 --> 00:07:20.004
+And then I'm saying please provide step-by-step instructions
+
+168
+00:07:20.004 --> 00:07:23.001
+to add these tables to Excel's data model
+
+169
+00:07:23.001 --> 00:07:26.007
+and join them together using Power Pivot.
+
+170
+00:07:26.007 --> 00:07:29.006
+I'm using Excel for Office 365.
+
+171
+00:07:29.006 --> 00:07:32.001
+So I'm being about as explicit as I possibly can.
+
+172
+00:07:32.001 --> 00:07:36.003
+Let's see how ChatGPT does.
+
+173
+00:07:36.003 --> 00:07:39.001
+Alright, so it says to add these tables
+
+174
+00:07:39.001 --> 00:07:41.003
+to Excel's data model
+
+175
+00:07:41.003 --> 00:07:43.001
+and join them together using Power Pivot,
+
+176
+00:07:43.001 --> 00:07:45.000
+follow these step-by-step instructions.
+
+177
+00:07:45.000 --> 00:07:47.009
+So open the Data Model workbook, great.
+
+178
+00:07:47.009 --> 00:07:50.003
+Make sure the Power Pivot add-in is enabled.
+
+179
+00:07:50.003 --> 00:07:52.009
+That's really only relevant for older versions of Excel,
+
+180
+00:07:52.009 --> 00:07:54.009
+but that's okay.
+
+181
+00:07:54.009 --> 00:07:58.002
+Click Power Pivot, click Add to Data Model,
+
+182
+00:07:58.002 --> 00:08:02.004
+choose From Other Sources, select Table, click Next,
+
+183
+00:08:02.004 --> 00:08:05.007
+go through the Table Import Wizard, choose the Excel file,
+
+184
+00:08:05.007 --> 00:08:08.004
+import the data, load it to the data model.
+
+185
+00:08:08.004 --> 00:08:11.005
+Lot of extra steps there that we didn't have to do
+
+186
+00:08:11.005 --> 00:08:14.006
+because our tables were already stored in worksheets.
+
+187
+00:08:14.006 --> 00:08:17.005
+And then from there, it's saying select Diagram View,
+
+188
+00:08:17.005 --> 00:08:18.007
+which we did.
+
+189
+00:08:18.007 --> 00:08:20.001
+And this actually looks pretty good.
+
+190
+00:08:20.001 --> 00:08:23.004
+So it's saying drag and drop customer ID from transactions
+
+191
+00:08:23.004 --> 00:08:25.003
+to customer ID in customers.
+
+192
+00:08:25.003 --> 00:08:27.001
+That creates a relationship between those tables.
+
+193
+00:08:27.001 --> 00:08:29.006
+That looks good, that's exactly what we did.
+
+194
+00:08:29.006 --> 00:08:30.006
+Same story with product ID,
+
+195
+00:08:30.006 --> 00:08:33.007
+same story with date to the calendar.
+
+196
+00:08:33.007 --> 00:08:35.001
+And then you can close the Power Pivot window.
+
+197
+00:08:35.001 --> 00:08:37.001
+So overall, not bad.
+
+198
+00:08:37.001 --> 00:08:40.000
+Definitely kind of walked you through some extra steps there
+
+199
+00:08:40.000 --> 00:08:41.001
+in the beginning,
+
+200
+00:08:41.001 --> 00:08:43.004
+but I think this ultimately would've gotten you
+
+201
+00:08:43.004 --> 00:08:45.008
+to the right end result.
+
+202
+00:08:45.008 --> 00:08:47.004
+Let's actually regenerate this again,
+
+203
+00:08:47.004 --> 00:08:50.000
+'cause I've seen a few different types of outputs
+
+204
+00:08:50.000 --> 00:08:53.002
+that it's provided.
+
+205
+00:08:53.002 --> 00:08:55.004
+So same story here.
+
+206
+00:08:55.004 --> 00:08:57.008
+We're enabling Power Pivot first,
+
+207
+00:08:57.008 --> 00:09:02.007
+importing the data using Power Query, From Table and Range.
+
+208
+00:09:02.007 --> 00:09:06.006
+Then we're defining relationships.
+
+209
+00:09:06.006 --> 00:09:08.008
+This one goes a little bit further
+
+210
+00:09:08.008 --> 00:09:11.007
+into creating a PivotTable to actually analyze the data.
+
+211
+00:09:11.007 --> 00:09:14.003
+So again, not bad, not great.
+
+212
+00:09:14.003 --> 00:09:18.000
+Let's do one more, and see what we get this time.
+
+213
+00:09:18.000 --> 00:09:20.002
+So again, it's kind of taking us
+
+214
+00:09:20.002 --> 00:09:22.002
+through the Power Query approach,
+
+215
+00:09:22.002 --> 00:09:23.006
+which I think is kind of an extra step.
+
+216
+00:09:23.006 --> 00:09:27.007
+Get & Transform, From Other Sources, From Workbook,
+
+217
+00:09:27.007 --> 00:09:30.000
+load it, add it to the data model.
+
+218
+00:09:30.000 --> 00:09:32.006
+So overall, decent response,
+
+219
+00:09:32.006 --> 00:09:34.007
+not the most efficient way to approach it.
+
+220
+00:09:34.007 --> 00:09:37.001
+And to be honest, there were a few times
+
+221
+00:09:37.001 --> 00:09:40.001
+where I ran this query and got totally wacky advice
+
+222
+00:09:40.001 --> 00:09:42.007
+to start writing custom M queries,
+
+223
+00:09:42.007 --> 00:09:44.004
+just things that were totally unnecessary here.
+
+224
+00:09:44.004 --> 00:09:46.009
+So overall, I think this is another use case
+
+225
+00:09:46.009 --> 00:09:49.008
+that I definitely approach with caution.
+
+226
+00:09:49.008 --> 00:09:51.009
+It was definitely helpful for getting started
+
+227
+00:09:51.009 --> 00:09:54.005
+with relatively simple tasks,
+
+228
+00:09:54.005 --> 00:09:56.005
+like PivotTables, or formulas for instance.
+
+229
+00:09:56.005 --> 00:09:58.004
+But there were a number of times
+
+230
+00:09:58.004 --> 00:10:00.001
+where it sent me down the wrong path,
+
+231
+00:10:00.001 --> 00:10:01.005
+or at least an inefficient path
+
+232
+00:10:01.005 --> 00:10:03.003
+when I tried to get guidance on things
+
+233
+00:10:03.003 --> 00:10:05.001
+that were a bit more sophisticated,
+
+234
+00:10:05.001 --> 00:10:07.006
+even after I spent quite a long time
+
+235
+00:10:07.006 --> 00:10:10.002
+testing and refining different prompts.
+
+236
+00:10:10.002 --> 00:10:12.006
+So this is a case where if you don't know better,
+
+237
+00:10:12.006 --> 00:10:15.003
+you could potentially waste a lot of time
+
+238
+00:10:15.003 --> 00:10:18.002
+going down unproductive rabbit holes,
+
+239
+00:10:18.002 --> 00:10:20.005
+or following inefficient roundabout instructions
+
+240
+00:10:20.005 --> 00:10:23.003
+to accomplish something that could have been done
+
+241
+00:10:23.003 --> 00:10:24.009
+in a much simpler way.
+
+242
+00:10:24.009 --> 00:10:27.002
+So my advice here, consider using ChatGPT
+
+243
+00:10:27.002 --> 00:10:29.006
+as a thought starter for this type of thing,
+
+244
+00:10:29.006 --> 00:10:32.000
+but you're likely to get better guidance
+
+245
+00:10:32.000 --> 00:10:33.000
+from online tutorials,
+
+246
+00:10:33.000 --> 00:10:36.003
+or better yet, by consulting actual experts.
