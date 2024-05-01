@@ -1,0 +1,473 @@
+WEBVTT
+
+1
+00:00:00.005 --> 00:00:02.002
+- [Instructor] AI tools like ChatGPT
+
+2
+00:00:02.002 --> 00:00:05.001
+became widely popular in late 2022,
+
+3
+00:00:05.001 --> 00:00:07.008
+but they owe their success to more than 60 years
+
+4
+00:00:07.008 --> 00:00:09.000
+of research and development
+
+5
+00:00:09.000 --> 00:00:11.004
+in artificial intelligence systems.
+
+6
+00:00:11.004 --> 00:00:12.009
+Outside of AI research,
+
+7
+00:00:12.009 --> 00:00:16.004
+we also saw massive surges in computing power,
+
+8
+00:00:16.004 --> 00:00:20.007
+storage capabilities, data generation, and much more.
+
+9
+00:00:20.007 --> 00:00:25.001
+There were a number of factors that led to ChatGPT,
+
+10
+00:00:25.001 --> 00:00:28.005
+but let's focus on the AI research that got us there.
+
+11
+00:00:28.005 --> 00:00:31.004
+So this chart here shows the increasing complexity
+
+12
+00:00:31.004 --> 00:00:33.008
+of neural network models over time.
+
+13
+00:00:33.008 --> 00:00:36.003
+So on our X axis we have time,
+
+14
+00:00:36.003 --> 00:00:39.004
+and on our Y axis we have the number of model parameters
+
+15
+00:00:39.004 --> 00:00:42.001
+that specific neural networks had.
+
+16
+00:00:42.001 --> 00:00:44.005
+And so the term artificial intelligence
+
+17
+00:00:44.005 --> 00:00:47.003
+was only coined in 1955,
+
+18
+00:00:47.003 --> 00:00:48.005
+and a few years later,
+
+19
+00:00:48.005 --> 00:00:51.004
+the first neural network algorithm was implemented.
+
+20
+00:00:51.004 --> 00:00:53.006
+This model had one parameter,
+
+21
+00:00:53.006 --> 00:00:55.003
+but there was a ton of interest
+
+22
+00:00:55.003 --> 00:00:58.008
+in getting machines to mimic human intelligence.
+
+23
+00:00:58.008 --> 00:01:02.002
+And that led researchers at MIT to develop ELIZA,
+
+24
+00:01:02.002 --> 00:01:05.007
+which was the first chatbot in the mid-'60s.
+
+25
+00:01:05.007 --> 00:01:08.006
+And this was not a super sophisticated chatbot
+
+26
+00:01:08.006 --> 00:01:11.007
+nor was it based off of neural network architecture,
+
+27
+00:01:11.007 --> 00:01:13.009
+but it did take in human input
+
+28
+00:01:13.009 --> 00:01:16.007
+and return text as a response.
+
+29
+00:01:16.007 --> 00:01:19.009
+In the late-'60s, AI research somewhat stalled.
+
+30
+00:01:19.009 --> 00:01:21.006
+Researchers found some issues
+
+31
+00:01:21.006 --> 00:01:24.006
+with the original neural network architecture
+
+32
+00:01:24.006 --> 00:01:27.003
+and researchers were also running into issues
+
+33
+00:01:27.003 --> 00:01:30.005
+implementing AI systems in practice.
+
+34
+00:01:30.005 --> 00:01:32.008
+So this led to reduced funding and interest
+
+35
+00:01:32.008 --> 00:01:35.001
+for a number of years.
+
+36
+00:01:35.001 --> 00:01:37.006
+AI research really started to pick back up again
+
+37
+00:01:37.006 --> 00:01:38.005
+in the mid-'80s
+
+38
+00:01:38.005 --> 00:01:42.008
+after a novel neural network architecture was created.
+
+39
+00:01:42.008 --> 00:01:44.002
+Multi-layer perceptrons,
+
+40
+00:01:44.002 --> 00:01:46.007
+which helped solve the issues researchers found
+
+41
+00:01:46.007 --> 00:01:49.006
+in the late '60s, as well as back propagation,
+
+42
+00:01:49.006 --> 00:01:52.003
+which was a technique for allowing these algorithms
+
+43
+00:01:52.003 --> 00:01:54.003
+to solve for their own errors better,
+
+44
+00:01:54.003 --> 00:01:56.005
+were implemented in the same algorithm,
+
+45
+00:01:56.005 --> 00:01:58.005
+and this made them much more powerful
+
+46
+00:01:58.005 --> 00:02:02.008
+and opened up the door to new practical applications.
+
+47
+00:02:02.008 --> 00:02:05.008
+In the meantime, corporations were starting to get invested
+
+48
+00:02:05.008 --> 00:02:08.004
+into the artificial intelligence game.
+
+49
+00:02:08.004 --> 00:02:10.002
+In the mid '90s, Deep Blue,
+
+50
+00:02:10.002 --> 00:02:12.009
+which was a supercomputer developed by IBM,
+
+51
+00:02:12.009 --> 00:02:15.005
+beat chess champion Garry Kasparov,
+
+52
+00:02:15.005 --> 00:02:17.009
+which was one of the first times on a big stage
+
+53
+00:02:17.009 --> 00:02:21.005
+that AI and computer systems successfully beat humans
+
+54
+00:02:21.005 --> 00:02:22.008
+at their own game.
+
+55
+00:02:22.008 --> 00:02:23.009
+Around the same time,
+
+56
+00:02:23.009 --> 00:02:26.003
+neural networks also showed extreme promise
+
+57
+00:02:26.003 --> 00:02:28.003
+in document recognition.
+
+58
+00:02:28.003 --> 00:02:31.001
+It became the go-to method to help understand
+
+59
+00:02:31.001 --> 00:02:33.001
+what humans had written by hand.
+
+60
+00:02:33.001 --> 00:02:35.009
+This opened up the door to a widespread array
+
+61
+00:02:35.009 --> 00:02:37.005
+of practical applications
+
+62
+00:02:37.005 --> 00:02:39.009
+that had tremendous economic benefit,
+
+63
+00:02:39.009 --> 00:02:42.003
+and we really started to see a lot more interest
+
+64
+00:02:42.003 --> 00:02:44.008
+back in neural networks once again.
+
+65
+00:02:44.008 --> 00:02:47.001
+In the mid 2000s, the first neural network
+
+66
+00:02:47.001 --> 00:02:50.000
+with deep learning capabilities was developed,
+
+67
+00:02:50.000 --> 00:02:52.004
+and this is one of the most important breakthroughs
+
+68
+00:02:52.004 --> 00:02:54.009
+that led to some of the AI tools we saw today.
+
+69
+00:02:54.009 --> 00:02:59.002
+And so just to point out, from about 1955 to about 2010,
+
+70
+00:02:59.002 --> 00:03:01.004
+we saw about a two-year doubling
+
+71
+00:03:01.004 --> 00:03:04.008
+in terms of the number of parameters that models had.
+
+72
+00:03:04.008 --> 00:03:07.002
+But once we move into the last decade,
+
+73
+00:03:07.002 --> 00:03:10.003
+we see this number shrink down to four months.
+
+74
+00:03:10.003 --> 00:03:11.007
+So every four months,
+
+75
+00:03:11.007 --> 00:03:14.009
+these models are getting twice as complex
+
+76
+00:03:14.009 --> 00:03:16.002
+as they were before.
+
+77
+00:03:16.002 --> 00:03:18.000
+We're not necessarily forecasting
+
+78
+00:03:18.000 --> 00:03:21.000
+that this doubling is going to progress at the same rate.
+
+79
+00:03:21.000 --> 00:03:22.000
+It may increase,
+
+80
+00:03:22.000 --> 00:03:24.009
+it may plateau as we see diminishing returns,
+
+81
+00:03:24.009 --> 00:03:28.005
+but things moved extremely fast in the last decade.
+
+82
+00:03:28.005 --> 00:03:30.009
+So in the modern era of AI, we kicked this off
+
+83
+00:03:30.009 --> 00:03:34.008
+by seeing IBM Watson beat humans at "Jeopardy!"
+
+84
+00:03:34.008 --> 00:03:37.004
+So they were able to understand context of questions
+
+85
+00:03:37.004 --> 00:03:40.005
+and provide answers at a better rate than humans were.
+
+86
+00:03:40.005 --> 00:03:43.009
+In 2012, we saw AlexNet, a deep learning model,
+
+87
+00:03:43.009 --> 00:03:46.003
+set a standard for image recognition.
+
+88
+00:03:46.003 --> 00:03:48.008
+This is when AI image recognition
+
+89
+00:03:48.008 --> 00:03:50.009
+started to approach that of humans.
+
+90
+00:03:50.009 --> 00:03:54.007
+We saw Siri and Alexa launched in about 2014,
+
+91
+00:03:54.007 --> 00:03:59.003
+and in 2015, Open AI, the creators of ChatGPT was founded.
+
+92
+00:03:59.003 --> 00:04:03.006
+And in the same year, AlphaGo beat world champions at Go.
+
+93
+00:04:03.006 --> 00:04:05.007
+This was powered by deep learning,
+
+94
+00:04:05.007 --> 00:04:08.005
+and Go was considered a much more challenging problem
+
+95
+00:04:08.005 --> 00:04:10.006
+for computers to solve than chess,
+
+96
+00:04:10.006 --> 00:04:12.002
+which was a little bit more predictable
+
+97
+00:04:12.002 --> 00:04:13.008
+in terms of what players could do.
+
+98
+00:04:13.008 --> 00:04:17.001
+In 2017, researchers at Google published a paper
+
+99
+00:04:17.001 --> 00:04:18.007
+on transformer layers,
+
+100
+00:04:18.007 --> 00:04:21.000
+introducing them into neural networks.
+
+101
+00:04:21.000 --> 00:04:23.002
+Transformer layers were the last key piece
+
+102
+00:04:23.002 --> 00:04:25.005
+of machine learning research necessary
+
+103
+00:04:25.005 --> 00:04:28.004
+to create algorithms like ChatGPT.
+
+104
+00:04:28.004 --> 00:04:32.001
+And from there, shortly after we seen GPT1, GPT2,
+
+105
+00:04:32.001 --> 00:04:34.008
+GPT3, and finally, GPT4,
+
+106
+00:04:34.008 --> 00:04:37.002
+all released in about a five-year span.
+
+107
+00:04:37.002 --> 00:04:38.009
+And in terms of model parameters,
+
+108
+00:04:38.009 --> 00:04:41.009
+GPT1 had about 100 million parameters,
+
+109
+00:04:41.009 --> 00:04:44.005
+while GPT4 had over 1 trillion,
+
+110
+00:04:44.005 --> 00:04:47.001
+representing about a 10,000 times increase
+
+111
+00:04:47.001 --> 00:04:48.009
+in terms of model complexity.
+
+112
+00:04:48.009 --> 00:04:52.009
+And we only got to GPT4 because early iterations of GPT
+
+113
+00:04:52.009 --> 00:04:55.004
+showed extreme promise for solving the problems
+
+114
+00:04:55.004 --> 00:04:57.009
+that we'll see later on in this course.
+
+115
+00:04:57.009 --> 00:05:00.005
+And so again, in a span of about 65 years,
+
+116
+00:05:00.005 --> 00:05:04.000
+we went for the term artificial intelligence being coined
+
+117
+00:05:04.000 --> 00:05:08.003
+to GPT4 with a trillion parameters being released.
+
+118
+00:05:08.003 --> 00:05:11.000
+Now let's go ahead and turn our attention to ChatGPT.
