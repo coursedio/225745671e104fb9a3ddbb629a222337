@@ -1,0 +1,133 @@
+WEBVTT
+
+1
+00:00:00.002 --> 00:00:01.008
+- [Lecturer] In this video, we're going to walk you through
+
+2
+00:00:01.008 --> 00:00:04.009
+another tip for prompt engineering to get better results
+
+3
+00:00:04.009 --> 00:00:08.001
+from AI tools like ChatGPT and Google Bard.
+
+4
+00:00:08.001 --> 00:00:10.005
+This time we're going to be talking about setting the tone
+
+5
+00:00:10.005 --> 00:00:13.008
+which can have a major impact on what you see as a response.
+
+6
+00:00:13.008 --> 00:00:15.005
+You could see an example here where we just say
+
+7
+00:00:15.005 --> 00:00:18.001
+explain regression analysis, but what does that mean?
+
+8
+00:00:18.001 --> 00:00:19.009
+Are we explaining regression analysis
+
+9
+00:00:19.009 --> 00:00:22.002
+to somebody that's really technical?
+
+10
+00:00:22.002 --> 00:00:24.004
+Are we explaining it to a four year old?
+
+11
+00:00:24.004 --> 00:00:27.001
+The more context you can give the AI tools in terms
+
+12
+00:00:27.001 --> 00:00:30.002
+of how you want it to talk, the level things like that,
+
+13
+00:00:30.002 --> 00:00:32.006
+the better it's going to do at giving you an output
+
+14
+00:00:32.006 --> 00:00:34.005
+that matches what you really want.
+
+15
+00:00:34.005 --> 00:00:37.009
+So here in the improved prompt you can see,
+
+16
+00:00:37.009 --> 00:00:41.006
+we say explain regression analysis in two sentences
+
+17
+00:00:41.006 --> 00:00:44.007
+to a C-level executive at a marketing agency.
+
+18
+00:00:44.007 --> 00:00:46.008
+So here, it's not going to go as technical.
+
+19
+00:00:46.008 --> 00:00:49.008
+It's giving you kind of a quicker soundbite
+
+20
+00:00:49.008 --> 00:00:52.003
+about what regression analysis is,
+
+21
+00:00:52.003 --> 00:00:55.003
+and it's going to be more appropriate for that audience.
+
+22
+00:00:55.003 --> 00:00:57.006
+Our pro tip here is to include something
+
+23
+00:00:57.006 --> 00:00:59.006
+in the prompt that says, explain it to me
+
+24
+00:00:59.006 --> 00:01:02.000
+as if you are explaining it to X, Y, Z.
+
+25
+00:01:02.000 --> 00:01:05.001
+And that could be a child, it could be somebody
+
+26
+00:01:05.001 --> 00:01:08.006
+who's non-technical, somebody who isn't a data expert.
+
+27
+00:01:08.006 --> 00:01:11.004
+And in this way, you can control the tone
+
+28
+00:01:11.004 --> 00:01:13.008
+and the complexity of the response that you're getting.
+
+29
+00:01:13.008 --> 00:01:15.002
+So try to keep this in mind.
+
+30
+00:01:15.002 --> 00:01:18.002
+Being prescriptive about the tone can really have an impact
+
+31
+00:01:18.002 --> 00:01:20.006
+on your results and can help you get a response
+
+32
+00:01:20.006 --> 00:01:22.009
+that's going to be the most appropriate for your audience
+
+33
+00:01:22.009 --> 00:01:25.001
+or for the problem that you're trying to solve.
